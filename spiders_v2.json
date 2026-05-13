@@ -11,11 +11,6 @@
   },
   {
     "version": 2,
-    "file": "py/微观短剧.txt",
-    "valid": true
-  },
-  {
-    "version": 2,
     "file": "py/世纪音乐.txt",
     "valid": true
   },
@@ -26,7 +21,17 @@
   },
   {
     "version": 2,
+    "file": "py/星星短剧.txt",
+    "valid": true
+  },
+  {
+    "version": 2,
     "file": "py/优酷.txt",
+    "valid": true
+  },
+  {
+    "version": 2,
+    "file": "py/百度短剧.txt",
     "valid": true
   },
   {
@@ -36,12 +41,7 @@
   },
   {
     "version": 2,
-    "file": "py/百度短剧.txt",
-    "valid": true
-  },
-  {
-    "version": 2,
-    "file": "py/星星短剧.txt",
+    "file": "py/微观短剧.txt",
     "valid": true
   },
   {
@@ -55,8 +55,8 @@
     "valid": true
   },
   {
-    "version": 7,
-    "file": "py/腾讯视频.txt",
+    "version": 2,
+    "file": "py/金牌.txt",
     "valid": true
   },
   {
@@ -66,92 +66,7 @@
   },
   {
     "version": 2,
-    "file": "py/听书.txt",
-    "valid": true
-  },
-  {
-    "version": 2,
-    "file": "py/金牌.txt",
-    "valid": true
-  },
-  {
-    "version": 2,
     "file": "py/河马短剧.txt",
-    "valid": true
-  },
-  {
-    "version": 2,
-    "file": "py/酷我听书.txt",
-    "valid": true
-  },
-  {
-    "version": 5,
-    "file": "py/多多.txt",
-    "valid": true
-  },
-  {
-    "version": 2,
-    "file": "py/博看听书.txt",
-    "valid": true
-  },
-  {
-    "version": 6,
-    "file": "py/木偶.txt",
-    "valid": true
-  },
-  {
-    "version": 2,
-    "file": "py/6V磁力.txt",
-    "valid": true
-  },
-  {
-    "version": 6,
-    "file": "py/4K指南.txt",
-    "valid": true
-  },
-  {
-    "version": 5,
-    "file": "py/滴答影视.txt",
-    "valid": true
-  },
-  {
-    "version": 3,
-    "file": "py/低端影视.txt",
-    "valid": true
-  },
-  {
-    "version": 13,
-    "file": "py/爱奇艺.txt",
-    "valid": true
-  },
-  {
-    "version": 6,
-    "file": "py/玩偶哥哥.txt",
-    "valid": true
-  },
-  {
-    "version": 6,
-    "file": "py/人人电影.txt",
-    "valid": true
-  },
-  {
-    "version": 6,
-    "file": "py/至臻.txt",
-    "valid": true
-  },
-  {
-    "version": 5,
-    "file": "py/虎斑.txt",
-    "valid": true
-  },
-  {
-    "version": 6,
-    "file": "py/蜡笔.txt",
-    "valid": true
-  },
-  {
-    "version": 2,
-    "file": "py/布布影视.txt",
     "valid": true
   },
   {
@@ -161,7 +76,37 @@
   },
   {
     "version": 2,
-    "file": "py/PPnix.txt",
+    "file": "py/博看听书.txt",
+    "valid": true
+  },
+  {
+    "version": 13,
+    "file": "py/爱奇艺.txt",
+    "valid": true
+  },
+  {
+    "version": 6,
+    "file": "py/蜡笔.txt",
+    "valid": true
+  },
+  {
+    "version": 6,
+    "file": "py/木偶.txt",
+    "valid": true
+  },
+  {
+    "version": 5,
+    "file": "py/libvio.txt",
+    "valid": true
+  },
+  {
+    "version": 7,
+    "file": "py/腾讯视频.txt",
+    "valid": true
+  },
+  {
+    "version": 6,
+    "file": "py/至臻.txt",
     "valid": true
   },
   {
@@ -170,13 +115,48 @@
     "valid": true
   },
   {
-    "version": 4,
-    "file": "py/瓜子.txt",
+    "version": 6,
+    "file": "py/4K指南.txt",
     "valid": true
   },
   {
-    "version": 4,
-    "file": "py/在线之家.txt",
+    "version": 3,
+    "file": "py/低端影视.txt",
+    "valid": true
+  },
+  {
+    "version": 2,
+    "file": "py/酷我听书.txt",
+    "valid": true
+  },
+  {
+    "version": 2,
+    "file": "py/听书.txt",
+    "valid": true
+  },
+  {
+    "version": 5,
+    "file": "py/滴答影视.txt",
+    "valid": true
+  },
+  {
+    "version": 6,
+    "file": "py/玩偶哥哥.txt",
+    "valid": true
+  },
+  {
+    "version": 5,
+    "file": "py/虎斑.txt",
+    "valid": true
+  },
+  {
+    "version": 8,
+    "file": "py/盘聚.txt",
+    "valid": true
+  },
+  {
+    "version": 2,
+    "file": "py/PPnix.txt",
     "valid": true
   },
   {
@@ -185,13 +165,13 @@
     "valid": true
   },
   {
-    "version": 2,
-    "file": "py/新韩剧网.txt",
+    "version": 7,
+    "file": "py/欧歌.txt",
     "valid": true
   },
   {
-    "version": 2,
-    "file": "py/剧迷.txt",
+    "version": 6,
+    "file": "py/人人电影.txt",
     "valid": true
   },
   {
@@ -200,13 +180,18 @@
     "valid": true
   },
   {
-    "version": 2,
-    "file": "py/AAZ音乐.txt",
+    "version": 4,
+    "file": "py/瓜子.txt",
     "valid": true
   },
   {
-    "version": 1,
-    "file": "py/咕咕动漫.txt",
+    "version": 2,
+    "file": "py/布布影视.txt",
+    "valid": true
+  },
+  {
+    "version": 2,
+    "file": "py/AAZ音乐.txt",
     "valid": true
   },
   {
@@ -215,13 +200,33 @@
     "valid": true
   },
   {
-    "version": 2,
-    "file": "py/独播库.txt",
+    "version": 1,
+    "file": "py/咕咕动漫.txt",
     "valid": true
   },
   {
-    "version": 8,
-    "file": "py/盘聚.txt",
+    "version": 2,
+    "file": "py/新韩剧网.txt",
+    "valid": true
+  },
+  {
+    "version": 5,
+    "file": "py/多多.txt",
+    "valid": true
+  },
+  {
+    "version": 2,
+    "file": "py/youknow.txt",
+    "valid": true
+  },
+  {
+    "version": 4,
+    "file": "py/在线之家.txt",
+    "valid": true
+  },
+  {
+    "version": 2,
+    "file": "py/两个BT.txt",
     "valid": true
   },
   {
@@ -231,17 +236,32 @@
   },
   {
     "version": 2,
-    "file": "py/袋鼠影视.txt",
-    "valid": true
-  },
-  {
-    "version": 2,
-    "file": "py/乌云影视.txt",
-    "valid": true
-  },
-  {
-    "version": 2,
     "file": "py/听友FM.txt",
+    "valid": true
+  },
+  {
+    "version": 2,
+    "file": "py/独播库.txt",
+    "valid": true
+  },
+  {
+    "version": 3,
+    "file": "py/6V磁力.txt",
+    "valid": true
+  },
+  {
+    "version": 2,
+    "file": "py/凡客TV.txt",
+    "valid": true
+  },
+  {
+    "version": 2,
+    "file": "py/剧迷.txt",
+    "valid": true
+  },
+  {
+    "version": 2,
+    "file": "py/袋鼠影视.txt",
     "valid": true
   },
   {
@@ -251,17 +271,7 @@
   },
   {
     "version": 2,
-    "file": "py/youknow.txt",
-    "valid": true
-  },
-  {
-    "version": 2,
     "file": "py/视界.txt",
-    "valid": true
-  },
-  {
-    "version": 2,
-    "file": "py/凡客TV.txt",
     "valid": true
   },
   {
@@ -276,22 +286,7 @@
   },
   {
     "version": 2,
-    "file": "py/两个BT.txt",
-    "valid": true
-  },
-  {
-    "version": 2,
-    "file": "py/剧圈圈.txt",
-    "valid": true
-  },
-  {
-    "version": 2,
     "file": "py/黑猫APP.txt",
-    "valid": true
-  },
-  {
-    "version": 2,
-    "file": "py/橘子TV.txt",
     "valid": true
   },
   {
@@ -301,7 +296,12 @@
   },
   {
     "version": 2,
-    "file": "py/茶杯狐.txt",
+    "file": "py/剧圈圈.txt",
+    "valid": true
+  },
+  {
+    "version": 2,
+    "file": "py/橘子TV.txt",
     "valid": true
   },
   {
@@ -330,28 +330,28 @@
     "valid": false
   },
   {
-    "version": 2,
-    "file": "py/耐视点播.txt",
-    "valid": false
-  },
-  {
-    "version": 7,
-    "file": "py/欧歌.txt",
-    "valid": false
-  },
-  {
-    "version": 5,
-    "file": "py/libvio.txt",
-    "valid": false
-  },
-  {
     "version": 5,
     "file": "py/不太灵.txt",
     "valid": false
   },
   {
+    "version": 2,
+    "file": "py/耐视点播.txt",
+    "valid": false
+  },
+  {
     "version": 3,
     "file": "py/麦田影院.txt",
+    "valid": false
+  },
+  {
+    "version": 2,
+    "file": "py/乌云影视.txt",
+    "valid": false
+  },
+  {
+    "version": 2,
+    "file": "py/茶杯狐.txt",
     "valid": false
   }
 ]
