@@ -6,6 +6,9 @@ https://github.com/har01d5/tvbox/tree/master/py
 https://github.com/cluntop/tvbox/tree/main/py
 
 ## 订阅资源
+
+https://我不是.摸鱼儿.top/
+
 http://www.饭太硬.com/tv
 
 http://tvbox.王二小放牛娃.top/
