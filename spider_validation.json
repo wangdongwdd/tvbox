@@ -1,20 +1,20 @@
 {
-  "generated_at": "2026-07-09T21:51:48+08:00",
+  "generated_at": "2026-07-10T21:02:48+08:00",
   "max_workers": 16,
-  "total_duration_ms": 28408.309,
+  "total_duration_ms": 56451.063,
   "summary": {
-    "total": 102,
-    "success": 77,
-    "failed": 25,
-    "success_rate": 0.7549,
+    "total": 104,
+    "success": 78,
+    "failed": 26,
+    "success_rate": 0.75,
     "stage_failures": {
       "module_load": 0,
       "init": 0,
-      "home": 6,
-      "category": 10,
+      "home": 7,
+      "category": 11,
       "detail": 2,
       "player": 1,
-      "url_check": 3,
+      "url_check": 2,
       "unexpected": 3
     }
   },
@@ -27,14 +27,14 @@
       "error": null,
       "traceback": null,
       "timings_ms": {
-        "module_load": 234.775,
+        "module_load": 163.999,
         "init": 0.001,
-        "home": 492.245,
-        "category": 0.029,
-        "detail": 424.713,
-        "player": 756.618,
-        "url_check": 471.246,
-        "total": 2407.483
+        "home": 461.865,
+        "category": 0.022,
+        "detail": 356.278,
+        "player": 1586.556,
+        "url_check": 437.012,
+        "total": 3046.391
       },
       "counts": {
         "classes": 6,
@@ -44,17 +44,17 @@
       },
       "samples": {
         "tid": "-1",
-        "vod_id": "ch47wchlp",
+        "vod_id": "ch4cjnorb",
         "flag": "alists",
-        "play_id": "34663|ch47wchlp"
+        "play_id": "36282|ch4cjnorb"
       },
       "player": {
         "parse": 0,
-        "url": "https://oss.douyinbit.com/m3u8/8d879a9dda7bf5239bdd4e39f994d824.m3u8",
+        "url": "https://oss.douyinbit.com/m3u8/585ce0b8b76e5ec32d81f43e83f2f261.m3u8",
         "valid": true,
         "reachable": true,
         "status_code": 200,
-        "final_url": "https://oss.douyinbit.com/m3u8/8d879a9dda7bf5239bdd4e39f994d824.m3u8",
+        "final_url": "https://oss.douyinbit.com/m3u8/585ce0b8b76e5ec32d81f43e83f2f261.m3u8",
         "reason": null
       }
     },
@@ -66,14 +66,14 @@
       "error": null,
       "traceback": null,
       "timings_ms": {
-        "module_load": 178.503,
-        "init": 0.002,
-        "home": 0.005,
-        "category": 855.871,
-        "detail": 666.185,
+        "module_load": 163.093,
+        "init": 0.001,
+        "home": 0.003,
+        "category": 1141.092,
+        "detail": 708.362,
         "player": 0.004,
-        "url_check": 145.262,
-        "total": 1932.541
+        "url_check": 159.881,
+        "total": 2180.552
       },
       "counts": {
         "classes": 5,
@@ -105,14 +105,14 @@
       "error": null,
       "traceback": null,
       "timings_ms": {
-        "module_load": 177.701,
+        "module_load": 163.131,
         "init": 0.008,
         "home": 0.002,
-        "category": 789.265,
-        "detail": 796.317,
+        "category": 906.46,
+        "detail": 891.29,
         "player": 0.002,
-        "url_check": 0.062,
-        "total": 1847.832
+        "url_check": 0.053,
+        "total": 2039.299
       },
       "counts": {
         "classes": 12,
@@ -144,14 +144,14 @@
       "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
       "traceback": "Traceback (most recent call last):\n  File \"/home/harold/workspace/atv-spiders/py/.venv/lib/python3.14/site-packages/urllib3/connectionpool.py\", line 787, in urlopen\n    response = self._make_request(\n        conn,\n    ...<10 lines>...\n        **response_kw,\n    )\n  File \"/home/harold/workspace/atv-spiders/py/.venv/lib/python3.14/site-packages/urllib3/connectionpool.py\", line 534, in _make_request\n    response = conn.getresponse()\n  File \"/home/harold/workspace/atv-spiders/py/.venv/lib/python3.14/site-packages/urllib3/connection.py\", line 571, in getresponse\n    httplib_response = super().getresponse()\n  File \"/home/harold/.local/share/uv/python/cpython-3.14.3-linux-x86_64-gnu/lib/python3.14/http/client.py\", line 1450, in getresponse\n    response.begin()\n    ~~~~~~~~~~~~~~^^\n  File \"/home/harold/.local/share/uv/python/cpython-3.14.3-linux-x86_64-gnu/lib/python3.14/http/client.py\", line 336, in begin\n    version, status, reason = self._read_status()\n                              ~~~~~~~~~~~~~~~~~^^\nhttp.client.RemoteDisconnected: Remote end closed connection without response\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/home/harold/workspace/atv-spiders/py/.venv/lib/python3.14/site-packages/requests/adapters.py\", line 645, in send\n    resp = conn.urlopen(\n        method=request.method,\n    ...<9 lines>...\n        chunked=chunked,\n    )\n  File \"/home/harold/workspace/atv-spiders/py/.venv/lib/python3.14/site-packages/urllib3/connectionpool.py\", line 841, in urlopen\n    retries = retries.increment(\n        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]\n    )\n  File \"/home/harold/workspace/atv-spiders/py/.venv/lib/python3.14/site-packages/urllib3/util/retry.py\", line 490, in increment\n    raise reraise(type(error), error, _stacktrace)\n          ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/harold/workspace/atv-spiders/py/.venv/lib/python3.14/site-packages/urllib3/util/util.py\", line 38, in reraise\n    raise value.with_traceback(tb)\n  File \"/home/harold/workspace/atv-spiders/py/.venv/lib/python3.14/site-packages/urllib3/connectionpool.py\", line 787, in urlopen\n    response = self._make_request(\n        conn,\n    ...<10 lines>...\n        **response_kw,\n    )\nurllib3.exceptions.ProtocolError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/home/harold/workspace/atv-spiders/py/validate_spiders.py\", line 756, in validate_spider_file\n    home_result = _run_timed(result[\"timings_ms\"], \"home\", spider.homeContent, clock, False)\n  File \"/home/harold/workspace/atv-spiders/py/validate_spiders.py\", line 318, in _run_timed\n    return func(*args, **kwargs)\n  File \"/home/harold/workspace/tvbox-resources/py/AAZ音乐.txt\", line 220, in homeContent\n  File \"/home/harold/workspace/tvbox-resources/py/AAZ音乐.txt\", line 57, in _fetch_html\n  File \"/home/harold/workspace/atv-spiders/py/base/spider.py\", line 145, in fetch\n    rsp = requests.get(url, params=params, cookies=cookies, headers=headers, timeout=timeout, verify=verify,\n                       stream=stream, allow_redirects=allow_redirects)\nrequests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))\n",
       "timings_ms": {
-        "module_load": 176.869,
-        "init": 0.004,
-        "home": 235.778,
+        "module_load": 239.155,
+        "init": 0.001,
+        "home": 671.945,
         "category": 0.0,
         "detail": 0.0,
         "player": 0.0,
         "url_check": 0.0,
-        "total": 497.153
+        "total": 919.825
       },
       "counts": {
         "classes": 0,
@@ -183,14 +183,14 @@
       "error": null,
       "traceback": null,
       "timings_ms": {
-        "module_load": 246.092,
+        "module_load": 183.752,
         "init": 0.001,
-        "home": 0.001,
-        "category": 765.178,
-        "detail": 673.573,
-        "player": 0.014,
-        "url_check": 217.892,
-        "total": 1922.147
+        "home": 0.002,
+        "category": 670.313,
+        "detail": 675.845,
+        "player": 0.013,
+        "url_check": 434.37,
+        "total": 2025.402
       },
       "counts": {
         "classes": 2,
@@ -222,14 +222,14 @@
       "error": null,
       "traceback": null,
       "timings_ms": {
-        "module_load": 237.315,
+        "module_load": 192.202,
         "init": 0.001,
-        "home": 0.004,
-        "category": 275.844,
-        "detail": 532.768,
-        "player": 0.005,
-        "url_check": 0.072,
-        "total": 1070.293
+        "home": 0.002,
+        "category": 393.868,
+        "detail": 203.373,
+        "player": 0.004,
+        "url_check": 0.053,
+        "total": 841.103
       },
       "counts": {
         "classes": 7,
@@ -261,14 +261,14 @@
       "error": null,
       "traceback": null,
       "timings_ms": {
-        "module_load": 211.967,
-        "init": 0.019,
-        "home": 0.004,
-        "category": 468.981,
-        "detail": 229.71,
-        "player": 298.138,
-        "url_check": 66.92,
-        "total": 1311.181
+        "module_load": 233.007,
+        "init": 0.028,
+        "home": 0.005,
+        "category": 1430.345,
+        "detail": 184.305,
+        "player": 312.56,
+        "url_check": 96.374,
+        "total": 2268.334
       },
       "counts": {
         "classes": 6,
@@ -278,17 +278,17 @@
       },
       "samples": {
         "tid": "playlist",
-        "vod_id": "playlist:9412344122",
+        "vod_id": "playlist:3750479594",
         "flag": "QQ音乐",
-        "play_id": "qqmusic:001j5Qxi4J50nw:206713449|极美 - 孙燕姿"
+        "play_id": "qqmusic:003SbiDI1ZocQX:212657292|Happy扭腰 - 南征北战NZBZ"
       },
       "player": {
         "parse": 0,
-        "url": "https://isure.stream.qqmusic.qq.com/F0000027fzkv1nKlkp.flac?guid=82f364eea1cd925b90888abb1b241e35&vkey=8F31391E64D6A65C3D512D14E45344F4F0F709B9814791EA3360BC6F6419CDA12FA23055714134951A505A586A9DE4709C0F87BD31456945__v2b9abe71&uin=1152921504846230218&fromtag=119114&redirect=1",
+        "url": "https://isure.stream.qqmusic.qq.com/F000001RDqN534SWKV.flac?guid=f9ccb04c59bd6430b1b5d25b30742588&vkey=3E5AB5394385B599D8345A6B317D6454BF10665C6FD55FBC6557AE7B218F0CAEDA54205C10E41053E8D38B94B1B770B1B9DA698685BB536F__v2b9ab542&uin=1152921504846230218&fromtag=119114&redirect=1",
         "valid": true,
         "reachable": true,
         "status_code": 200,
-        "final_url": "https://isure.stream.qqmusic.qq.com/F0000027fzkv1nKlkp.flac?guid=82f364eea1cd925b90888abb1b241e35&vkey=8F31391E64D6A65C3D512D14E45344F4F0F709B9814791EA3360BC6F6419CDA12FA23055714134951A505A586A9DE4709C0F87BD31456945__v2b9abe71&uin=1152921504846230218&fromtag=119114&redirect=1",
+        "final_url": "https://isure.stream.qqmusic.qq.com/F000001RDqN534SWKV.flac?guid=f9ccb04c59bd6430b1b5d25b30742588&vkey=3E5AB5394385B599D8345A6B317D6454BF10665C6FD55FBC6557AE7B218F0CAEDA54205C10E41053E8D38B94B1B770B1B9DA698685BB536F__v2b9ab542&uin=1152921504846230218&fromtag=119114&redirect=1",
         "reason": null
       }
     },
@@ -300,18 +300,18 @@
       "error": null,
       "traceback": null,
       "timings_ms": {
-        "module_load": 256.347,
-        "init": 0.004,
-        "home": 0.061,
-        "category": 850.815,
-        "detail": 2509.167,
-        "player": 0.004,
-        "url_check": 969.873,
-        "total": 4595.043
+        "module_load": 161.486,
+        "init": 0.008,
+        "home": 0.093,
+        "category": 793.685,
+        "detail": 2048.76,
+        "player": 0.008,
+        "url_check": 1017.371,
+        "total": 4100.754
       },
       "counts": {
         "classes": 29,
-        "category_videos": 20,
+        "category_videos": 19,
         "detail_videos": 1,
         "episodes": 2
       },
@@ -339,14 +339,14 @@
       "error": null,
       "traceback": null,
       "timings_ms": {
-        "module_load": 214.32,
+        "module_load": 170.982,
         "init": 0.001,
-        "home": 0.001,
-        "category": 245.837,
-        "detail": 275.368,
-        "player": 0.007,
-        "url_check": 152.964,
-        "total": 932.987
+        "home": 0.002,
+        "category": 241.389,
+        "detail": 307.141,
+        "player": 0.004,
+        "url_check": 155.876,
+        "total": 945.122
       },
       "counts": {
         "classes": 6,
@@ -356,17 +356,17 @@
       },
       "samples": {
         "tid": "index",
-        "vod_id": "5513",
+        "vod_id": "714893546",
         "flag": "夸克",
-        "play_id": "https://pan.quark.cn/s/9b0a4e2155f2||277"
+        "play_id": "https://pan.quark.cn/s/367f8f81022d"
       },
       "player": {
         "parse": 0,
-        "url": "https://pan.quark.cn/s/9b0a4e2155f2||277",
+        "url": "https://pan.quark.cn/s/367f8f81022d",
         "valid": true,
         "reachable": true,
         "status_code": 200,
-        "final_url": "https://pan.quark.cn/s/9b0a4e2155f2%7C%7C277",
+        "final_url": "https://pan.quark.cn/s/367f8f81022d",
         "reason": null
       }
     },
@@ -378,14 +378,14 @@
       "error": null,
       "traceback": null,
       "timings_ms": {
-        "module_load": 173.518,
+        "module_load": 185.849,
         "init": 0.003,
-        "home": 2139.806,
-        "category": 1557.027,
-        "detail": 958.452,
-        "player": 625.768,
-        "url_check": 147.326,
-        "total": 5674.451
+        "home": 1208.341,
+        "category": 547.689,
+        "detail": 628.653,
+        "player": 473.291,
+        "url_check": 451.928,
+        "total": 4568.864
       },
       "counts": {
         "classes": 5,
@@ -395,17 +395,17 @@
       },
       "samples": {
         "tid": "1",
-        "vod_id": "19827",
-        "flag": "快看云",
-        "play_id": "快看云@@direct@@ba11073ae57ba0eede130eeda148f635,v0ddadg10001d9790tfog65vf44gdep0,token+,1,1"
+        "vod_id": "19011",
+        "flag": "特快云",
+        "play_id": "特快云@@direct@@ba11073ae57ba0eede130eeda148f635,v10033g50000cs6hs3vog65kut51ksp0,token+,1,1"
       },
       "player": {
         "parse": 0,
-        "url": "https://v6.douyinvod.com/22625c1f8160c01171c42ec784f9b234/6a4ffdd3/video/tos/cn/tos-cn-v-5f73e7/oouekUv9eOCtVQGr1HqODeEAkLrWSn2hGaIEBy/?a=0&ch=0&cr=0&dr=2&er=0&lr=test&cd=0%7C0%7C0%7C0&br=2010&bt=2010&cs=0&ds=4&ft=S9lstHiHH_Myq8ZParG_e2NvjTQ&mime_type=video_mp4&qs=13&rc=M2hqN3k5cnc8PDQzNGdnM0BpM2hqN3k5cnc8PDQzNGdnM0BtYTFjMmRjLTRhLS1kXmFzYSNtYTFjMmRjLTRhLS1kXmFzcw%3D%3D&btag=80000e00038000&dy_q=1783604178&l=20260709213618B8C414E65F16C4D0C7B7",
+        "url": "http://v16.akamaized.net/697597bc14a9e2bc16e28f1fa135200c/6a514060/video/tos/alisg/tos-alisg-v-0051c001-sg/oInDIp5PIFRkB07DIP2aeBA1hNFB5QfpdgQD4E/?a=0&bti=NTk5Zi42Og%3D%3D&&bt=2683&ft=cApXJCz7ThWHp1yzLGZmo0P&mime_type=video_mp4&rc=M3Y0d245cjZrdjMzODYzNEBpM3Y0d245cjZrdjMzODYzNEBtaDJyMmRzcDNgLS1kMC1zYSNtaDJyMmRzcDNgLS1kMC1zcw%3D%3D&vvpl=1&l=20260710205332210AC3764C059B9B2FA6&btag=e00058000",
         "valid": true,
         "reachable": true,
         "status_code": 200,
-        "final_url": "https://v6.douyinvod.com/22625c1f8160c01171c42ec784f9b234/6a4ffdd3/video/tos/cn/tos-cn-v-5f73e7/oouekUv9eOCtVQGr1HqODeEAkLrWSn2hGaIEBy/?a=0&ch=0&cr=0&dr=2&er=0&lr=test&cd=0%7C0%7C0%7C0&br=2010&bt=2010&cs=0&ds=4&ft=S9lstHiHH_Myq8ZParG_e2NvjTQ&mime_type=video_mp4&qs=13&rc=M2hqN3k5cnc8PDQzNGdnM0BpM2hqN3k5cnc8PDQzNGdnM0BtYTFjMmRjLTRhLS1kXmFzYSNtYTFjMmRjLTRhLS1kXmFzcw%3D%3D&btag=80000e00038000&dy_q=1783604178&l=20260709213618B8C414E65F16C4D0C7B7",
+        "final_url": "http://v16.akamaized.net/697597bc14a9e2bc16e28f1fa135200c/6a514060/video/tos/alisg/tos-alisg-v-0051c001-sg/oInDIp5PIFRkB07DIP2aeBA1hNFB5QfpdgQD4E/?a=0&bti=NTk5Zi42Og%3D%3D&&bt=2683&ft=cApXJCz7ThWHp1yzLGZmo0P&mime_type=video_mp4&rc=M3Y0d245cjZrdjMzODYzNEBpM3Y0d245cjZrdjMzODYzNEBtaDJyMmRzcDNgLS1kMC1zYSNtaDJyMmRzcDNgLS1kMC1zcw%3D%3D&vvpl=1&l=20260710205332210AC3764C059B9B2FA6&btag=e00058000",
         "reason": null
       }
     },
@@ -417,14 +417,14 @@
       "error": null,
       "traceback": null,
       "timings_ms": {
-        "module_load": 239.843,
+        "module_load": 173.961,
         "init": 0.001,
-        "home": 0.002,
-        "category": 1939.354,
-        "detail": 1541.73,
-        "player": 1023.43,
-        "url_check": 776.841,
-        "total": 5543.088
+        "home": 0.001,
+        "category": 1911.068,
+        "detail": 1521.001,
+        "player": 1054.667,
+        "url_check": 971.374,
+        "total": 5697.612
       },
       "counts": {
         "classes": 7,
@@ -434,56 +434,56 @@
       },
       "samples": {
         "tid": "index",
-        "vod_id": "204863",
+        "vod_id": "205003",
         "flag": "YouKnowTV",
-        "play_id": "eyJ2b2RfaWQiOiIyMDQ4NjMiLCJlcGlzb2RlX2luZGV4IjoxLCJ0aXRsZSI6IuesrDAx6ZuGIiwiY2FuZGlkYXRlcyI6W3sic291cmNlIjoi57q_6LevMSIsInNvdXJjZV9pZCI6IjEiLCJlcGlzb2RlX3VybCI6Imh0dHBzOi8vd3d3LnlvdWtub3cudHYvcC8yMDQ4NjMtMS0xLyJ9LHsic291cmNlIjoi57q_6LevMiIsInNvdXJjZV9pZCI6IjEiLCJlcGlzb2RlX3VybCI6Imh0dHBzOi8vd3d3LnlvdWtub3cudHYvcC8yMDQ4NjMtMS0xLyJ9LHsic291cmNlIjoi57q_6LevMTYiLCJzb3VyY2VfaWQiOiIyIiwiZXBpc29kZV91cmwiOiJodHRwczovL3d3dy55b3Vrbm93LnR2L3AvMjA0ODYzLTItMS8ifSx7InNvdXJjZSI6Iue6v-i3rzE3Iiwic291cmNlX2lkIjoiMiIsImVwaXNvZGVfdXJsIjoiaHR0cHM6Ly93d3cueW91a25vdy50di9wLzIwNDg2My0yLTEvIn0seyJzb3VyY2UiOiLnur_ot68zMSIsInNvdXJjZV9pZCI6IjMiLCJlcGlzb2RlX3VybCI6Imh0dHBzOi8vd3d3LnlvdWtub3cudHYvcC8yMDQ4NjMtMy0xLyJ9LHsic291cmNlIjoi57q_6LevMzIiLCJzb3VyY2VfaWQiOiIzIiwiZXBpc29kZV91cmwiOiJodHRwczovL3d3dy55b3Vrbm93LnR2L3AvMjA0ODYzLTMtMS8ifV19"
+        "play_id": "eyJ2b2RfaWQiOiIyMDUwMDMiLCJlcGlzb2RlX2luZGV4IjoxLCJ0aXRsZSI6IuesrDHpm4YiLCJjYW5kaWRhdGVzIjpbeyJzb3VyY2UiOiLnur_ot68xIiwic291cmNlX2lkIjoiMSIsImVwaXNvZGVfdXJsIjoiaHR0cHM6Ly93d3cueW91a25vdy50di9wLzIwNTAwMy0xLTEvIn0seyJzb3VyY2UiOiLnur_ot68yIiwic291cmNlX2lkIjoiMSIsImVwaXNvZGVfdXJsIjoiaHR0cHM6Ly93d3cueW91a25vdy50di9wLzIwNTAwMy0xLTEvIn0seyJzb3VyY2UiOiLnur_ot68xOCIsInNvdXJjZV9pZCI6IjIiLCJlcGlzb2RlX3VybCI6Imh0dHBzOi8vd3d3LnlvdWtub3cudHYvcC8yMDUwMDMtMi0xLyJ9LHsic291cmNlIjoi57q_6LevMTkiLCJzb3VyY2VfaWQiOiIyIiwiZXBpc29kZV91cmwiOiJodHRwczovL3d3dy55b3Vrbm93LnR2L3AvMjA1MDAzLTItMS8ifSx7InNvdXJjZSI6Iue6v-i3rzMzIiwic291cmNlX2lkIjoiMyIsImVwaXNvZGVfdXJsIjoiaHR0cHM6Ly93d3cueW91a25vdy50di9wLzIwNTAwMy0zLTEvIn0seyJzb3VyY2UiOiLnur_ot68zNCIsInNvdXJjZV9pZCI6IjMiLCJlcGlzb2RlX3VybCI6Imh0dHBzOi8vd3d3LnlvdWtub3cudHYvcC8yMDUwMDMtMy0xLyJ9XX0"
       },
       "player": {
         "parse": 0,
-        "url": "https://vip.dytt-tvs.com/20260623/25180_dbcec773/index.m3u8",
+        "url": "https://vip.dytt-tvs.com/20260627/25759_ba307c1f/index.m3u8",
         "valid": true,
         "reachable": true,
         "status_code": 200,
-        "final_url": "https://play2.jimxtc.com/20260623/25180_dbcec773/index.m3u8",
+        "final_url": "https://play2.jimxtc.com/20260627/25759_ba307c1f/index.m3u8",
         "reason": null
       }
     },
     {
       "spider": "七味",
       "file": "七味.txt",
-      "success": true,
-      "failed_stage": null,
-      "error": null,
+      "success": false,
+      "failed_stage": "category",
+      "error": "分类视频列表为空",
       "traceback": null,
       "timings_ms": {
-        "module_load": 220.67,
-        "init": 0.006,
-        "home": 0.002,
-        "category": 782.955,
-        "detail": 839.791,
-        "player": 0.003,
-        "url_check": 1137.245,
-        "total": 3018.398
+        "module_load": 159.054,
+        "init": 0.008,
+        "home": 0.001,
+        "category": 28357.965,
+        "detail": 0.0,
+        "player": 0.0,
+        "url_check": 0.0,
+        "total": 56443.943
       },
       "counts": {
         "classes": 5,
-        "category_videos": 42,
-        "detail_videos": 1,
-        "episodes": 2
+        "category_videos": 0,
+        "detail_videos": 0,
+        "episodes": 0
       },
       "samples": {
-        "tid": "1",
-        "vod_id": "502477",
-        "flag": "百度1",
-        "play_id": "https://pan.baidu.com/s/1vIfwNVT0Dy11L0QCcv_rPA?pwd=sh4g"
+        "tid": "2",
+        "vod_id": null,
+        "flag": null,
+        "play_id": null
       },
       "player": {
-        "parse": 0,
-        "url": "https://pan.baidu.com/s/1vIfwNVT0Dy11L0QCcv_rPA?pwd=sh4g",
-        "valid": true,
-        "reachable": true,
-        "status_code": 200,
-        "final_url": "https://pan.baidu.com/share/init?surl=vIfwNVT0Dy11L0QCcv_rPA&pwd=sh4g",
+        "parse": null,
+        "url": "",
+        "valid": false,
+        "reachable": null,
+        "status_code": null,
+        "final_url": "",
         "reason": null
       }
     },
@@ -495,14 +495,14 @@
       "error": null,
       "traceback": null,
       "timings_ms": {
-        "module_load": 220.297,
-        "init": 0.001,
-        "home": 969.804,
-        "category": 1006.363,
-        "detail": 1069.648,
+        "module_load": 162.955,
+        "init": 0.002,
+        "home": 1115.23,
+        "category": 1215.659,
+        "detail": 1366.33,
         "player": 0.005,
-        "url_check": 137.36,
-        "total": 5419.172
+        "url_check": 713.626,
+        "total": 4646.011
       },
       "counts": {
         "classes": 5,
@@ -511,18 +511,18 @@
         "episodes": 1
       },
       "samples": {
-        "tid": "2",
-        "vod_id": "36889962",
-        "flag": "夸克",
-        "play_id": "https://pan.quark.cn/s/91987f0e3a8f"
+        "tid": "1",
+        "vod_id": "1303543",
+        "flag": "阿里",
+        "play_id": "https://www.aliyundrive.com/s/wyUEwg6Ntyb"
       },
       "player": {
         "parse": 0,
-        "url": "https://pan.quark.cn/s/91987f0e3a8f",
+        "url": "https://www.aliyundrive.com/s/wyUEwg6Ntyb",
         "valid": true,
         "reachable": true,
-        "status_code": 200,
-        "final_url": "https://pan.quark.cn/s/91987f0e3a8f",
+        "status_code": 204,
+        "final_url": "https://www.aliyundrive.com/s/wyUEwg6Ntyb",
         "reason": null
       }
     },
@@ -534,14 +534,14 @@
       "error": "分类视频列表为空",
       "traceback": null,
       "timings_ms": {
-        "module_load": 169.865,
+        "module_load": 156.776,
         "init": 0.001,
-        "home": 179.545,
-        "category": 112.547,
+        "home": 716.395,
+        "category": 157.32,
         "detail": 0.0,
         "player": 0.0,
         "url_check": 0.0,
-        "total": 573.783
+        "total": 1728.24
       },
       "counts": {
         "classes": 5,
@@ -573,14 +573,14 @@
       "error": null,
       "traceback": null,
       "timings_ms": {
-        "module_load": 232.896,
-        "init": 0.001,
+        "module_load": 229.164,
+        "init": 0.0,
         "home": 0.001,
-        "category": 559.68,
-        "detail": 419.782,
-        "player": 855.262,
-        "url_check": 587.668,
-        "total": 2679.622
+        "category": 467.605,
+        "detail": 354.792,
+        "player": 1622.043,
+        "url_check": 611.928,
+        "total": 3296.164
       },
       "counts": {
         "classes": 14,
@@ -590,17 +590,17 @@
       },
       "samples": {
         "tid": "zgjun",
-        "vod_id": "ch4cnej9w",
+        "vod_id": "ch4cjnorb",
         "flag": "两个BT",
-        "play_id": "eyJwaWQiOiIvcGxheS9jaDRjbmVqOXciLCJzaWQiOiJjaDRjbmVqOXciLCJuYW1lIjoiMSJ9"
+        "play_id": "eyJwaWQiOiIvcGxheS9jaDRjam5vcmIiLCJzaWQiOiJjaDRjam5vcmIiLCJuYW1lIjoiMSJ9"
       },
       "player": {
         "parse": 0,
-        "url": "https://zijieapi.douyinbyte.com/m3u8/341af25f0cb16590893fe19e27e4067e.m3u8",
+        "url": "https://zijieapi.douyinbyte.com/m3u8/585ce0b8b76e5ec32d81f43e83f2f261.m3u8",
         "valid": true,
         "reachable": true,
         "status_code": 200,
-        "final_url": "https://zijieapi.douyinbyte.com/m3u8/341af25f0cb16590893fe19e27e4067e.m3u8",
+        "final_url": "https://zijieapi.douyinbyte.com/m3u8/585ce0b8b76e5ec32d81f43e83f2f261.m3u8",
         "reason": null
       }
     },
@@ -612,14 +612,14 @@
       "error": "HTTPSConnectionPool(host='vod-cdn.findtv.me', port=443): Read timed out. (read timeout=5)",
       "traceback": null,
       "timings_ms": {
-        "module_load": 169.396,
+        "module_load": 188.849,
         "init": 0.001,
-        "home": 480.357,
-        "category": 666.518,
-        "detail": 798.59,
-        "player": 0.026,
-        "url_check": 5802.567,
-        "total": 10361.287
+        "home": 355.496,
+        "category": 1092.588,
+        "detail": 871.009,
+        "player": 0.02,
+        "url_check": 5716.754,
+        "total": 10498.778
       },
       "counts": {
         "classes": 7,
@@ -651,14 +651,14 @@
       "error": "分类视频列表为空",
       "traceback": null,
       "timings_ms": {
-        "module_load": 4.334,
+        "module_load": 3.86,
         "init": 0.001,
         "home": 0.0,
-        "category": 484.754,
+        "category": 431.384,
         "detail": 0.0,
         "player": 0.0,
         "url_check": 0.0,
-        "total": 1055.362
+        "total": 961.568
       },
       "counts": {
         "classes": 5,
@@ -690,14 +690,14 @@
       "error": null,
       "traceback": null,
       "timings_ms": {
-        "module_load": 6.776,
+        "module_load": 6.637,
         "init": 0.001,
         "home": 0.001,
-        "category": 1310.798,
-        "detail": 1227.389,
-        "player": 0.003,
-        "url_check": 1498.213,
-        "total": 4043.672
+        "category": 1171.119,
+        "detail": 718.43,
+        "player": 0.004,
+        "url_check": 943.9,
+        "total": 2840.54
       },
       "counts": {
         "classes": 4,
@@ -707,17 +707,17 @@
       },
       "samples": {
         "tid": "1",
-        "vod_id": "12653",
+        "vod_id": "12659",
         "flag": "百度#二小",
-        "play_id": "https://pan.baidu.com/s/1Vr-fZcC25MK0bgsJKgb_kw?pwd=bkga"
+        "play_id": "https://pan.baidu.com/s/1Vyc8oHXKZ0b_XngLHmQKAA?pwd=8k3y"
       },
       "player": {
         "parse": 0,
-        "url": "https://pan.baidu.com/s/1Vr-fZcC25MK0bgsJKgb_kw?pwd=bkga",
+        "url": "https://pan.baidu.com/s/1Vyc8oHXKZ0b_XngLHmQKAA?pwd=8k3y",
         "valid": true,
         "reachable": true,
         "status_code": 200,
-        "final_url": "https://pan.baidu.com/share/init?surl=Vr-fZcC25MK0bgsJKgb_kw&pwd=bkga",
+        "final_url": "https://pan.baidu.com/share/init?surl=Vyc8oHXKZ0b_XngLHmQKAA&pwd=8k3y",
         "reason": null
       }
     },
@@ -729,14 +729,14 @@
       "error": null,
       "traceback": null,
       "timings_ms": {
-        "module_load": 4.247,
+        "module_load": 3.834,
         "init": 0.001,
-        "home": 0.0,
-        "category": 566.274,
-        "detail": 513.988,
-        "player": 0.011,
-        "url_check": 2335.744,
-        "total": 3420.652
+        "home": 0.001,
+        "category": 501.649,
+        "detail": 401.482,
+        "player": 0.008,
+        "url_check": 1119.059,
+        "total": 2026.965
       },
       "counts": {
         "classes": 4,
@@ -763,19 +763,19 @@
     {
       "spider": "人人视频",
       "file": "人人视频.txt",
-      "success": false,
-      "failed_stage": "url_check",
-      "error": "HTTP 403",
+      "success": true,
+      "failed_stage": null,
+      "error": null,
       "traceback": null,
       "timings_ms": {
-        "module_load": 6.511,
+        "module_load": 4.776,
         "init": 0.001,
-        "home": 228.705,
-        "category": 335.291,
-        "detail": 276.944,
-        "player": 387.495,
-        "url_check": 142.776,
-        "total": 2512.389
+        "home": 575.672,
+        "category": 305.86,
+        "detail": 278.371,
+        "player": 1016.039,
+        "url_check": 125.302,
+        "total": 2306.888
       },
       "counts": {
         "classes": 4,
@@ -784,19 +784,19 @@
         "episodes": 1
       },
       "samples": {
-        "tid": "MOVIE",
-        "vod_id": "58108",
+        "tid": "TV",
+        "vod_id": "57539",
         "flag": "人人专线",
-        "play_id": "58108@387692"
+        "play_id": "57539@386435"
       },
       "player": {
         "parse": 0,
-        "url": "https://tfxf1gch1hcj18rzdnctifaauyqy.ourdvsssvip.com:20443/ws-302.bwcgee.cn/6079cc6a745a71f1a51f4531948c0402/c2396796fec744d896c508accbb108c5-bb9d699ea99816c59b3e83ef32ed21cb-ld.mp4?key=4bb9dce70da79da86d8c16730801d294&time=1783619502327&clientType=web_pc&clientVersion=1.0.0&parseUsage=PLAY&uid=0&rk=ba7d289c391f4d70bf36fcf45c0c00c6&hevc=false&seasonId=58108&wsiphost=ipdbme&wsrid_tag=6a4fa76e_PS-XIY-01w4Z30_40489-56589-s1t1783605102431&x-mamba-business-label=13423&redirect_cnt=0&ip_type=0&wshc=C&requery=0",
-        "valid": false,
-        "reachable": false,
-        "status_code": 403,
-        "final_url": "https://tfxf1gch1hcj18rzdnctifaauyqy.ourdvsssvip.com:20443/ws-302.bwcgee.cn/6079cc6a745a71f1a51f4531948c0402/c2396796fec744d896c508accbb108c5-bb9d699ea99816c59b3e83ef32ed21cb-ld.mp4?key=4bb9dce70da79da86d8c16730801d294&time=1783619502327&clientType=web_pc&clientVersion=1.0.0&parseUsage=PLAY&uid=0&rk=ba7d289c391f4d70bf36fcf45c0c00c6&hevc=false&seasonId=58108&wsiphost=ipdbme&wsrid_tag=6a4fa76e_PS-XIY-01w4Z30_40489-56589-s1t1783605102431&x-mamba-business-label=13423&redirect_cnt=0&ip_type=0&wshc=C&requery=0",
-        "reason": "HTTP 403"
+        "url": "https://a1ri9koe1mal7e4.302.fledgecloud.com:56782/zj-302-cdn.bwcgee.cn/50fffa6e60bb71f1be1d4531949c0402/d2e2152694a04de09fa2b27243987046-cb89ecd855f698e68d9bcb2cd3537636-ld.mp4?auth_key=1783702960-5d42ed9d8c249915ddbeb840e91d44d6-0-a648cc5c852b5a42390a7fb8df3a3f92&clientType=web_pc&clientVersion=1.0.0&parseUsage=PLAY&uid=0&rk=1906eac78c8847589327284b2d13b664&hevc=false&seasonId=57539",
+        "valid": true,
+        "reachable": true,
+        "status_code": 200,
+        "final_url": "https://a1ri9koe1mal7e4.302.fledgecloud.com:56782/zj-302-cdn.bwcgee.cn/50fffa6e60bb71f1be1d4531949c0402/d2e2152694a04de09fa2b27243987046-cb89ecd855f698e68d9bcb2cd3537636-ld.mp4?auth_key=1783702960-5d42ed9d8c249915ddbeb840e91d44d6-0-a648cc5c852b5a42390a7fb8df3a3f92&clientType=web_pc&clientVersion=1.0.0&parseUsage=PLAY&uid=0&rk=1906eac78c8847589327284b2d13b664&hevc=false&seasonId=57539",
+        "reason": null
       }
     },
     {
@@ -807,14 +807,14 @@
       "error": null,
       "traceback": null,
       "timings_ms": {
-        "module_load": 7.369,
+        "module_load": 8.64,
         "init": 0.001,
         "home": 0.001,
-        "category": 264.802,
-        "detail": 577.734,
-        "player": 0.003,
-        "url_check": 276.673,
-        "total": 1127.135
+        "category": 275.309,
+        "detail": 864.657,
+        "player": 0.002,
+        "url_check": 259.729,
+        "total": 1408.906
       },
       "counts": {
         "classes": 6,
@@ -846,14 +846,14 @@
       "error": null,
       "traceback": null,
       "timings_ms": {
-        "module_load": 4.692,
+        "module_load": 6.674,
         "init": 0.001,
         "home": 0.001,
-        "category": 1046.727,
-        "detail": 1461.898,
-        "player": 0.01,
-        "url_check": 85.934,
-        "total": 2846.366
+        "category": 1072.59,
+        "detail": 1404.117,
+        "player": 0.009,
+        "url_check": 346.312,
+        "total": 2830.071
       },
       "counts": {
         "classes": 4,
@@ -863,17 +863,17 @@
       },
       "samples": {
         "tid": "series",
-        "vod_id": "movie/little-house-on-the-prairie",
-        "flag": "播放源 2 (1080P)",
-        "play_id": "https://hn.bfvvs.com/play/aOYPggpd/index.m3u8"
+        "vod_id": "movie/mangma-sang-tai",
+        "flag": "播放源 1 (1080P)",
+        "play_id": "https://v.lzcdn27.com/20260708/12876_6db231bd/index.m3u8"
       },
       "player": {
         "parse": 0,
-        "url": "https://hn.bfvvs.com/play/aOYPggpd/index.m3u8",
+        "url": "https://v.lzcdn27.com/20260708/12876_6db231bd/index.m3u8",
         "valid": true,
         "reachable": true,
         "status_code": 200,
-        "final_url": "https://hn.bfvvs.com/play/aOYPggpd/index.m3u8",
+        "final_url": "https://v.lzcdn27.com/20260708/12876_6db231bd/index.m3u8",
         "reason": null
       }
     },
@@ -885,14 +885,14 @@
       "error": null,
       "traceback": null,
       "timings_ms": {
-        "module_load": 9.064,
+        "module_load": 7.535,
         "init": 0.001,
-        "home": 0.002,
-        "category": 1179.175,
-        "detail": 301.711,
-        "player": 1559.778,
-        "url_check": 1091.227,
-        "total": 4142.115
+        "home": 0.001,
+        "category": 791.572,
+        "detail": 310.062,
+        "player": 1605.681,
+        "url_check": 1235.101,
+        "total": 3951.262
       },
       "counts": {
         "classes": 4,
@@ -908,11 +908,11 @@
       },
       "player": {
         "parse": 0,
-        "url": "https://v.xl01.eu.cc/obj/2D792CEE4851DEEC71F62288F71CD546638C0945F1FE6DDF65FB10420B184A2C",
+        "url": "https://v.xl01.eu.cc/obj/F9BE22F7704F0A9719F7D1E13FF5B672D1E220B375EA73F291F00911BF50C5EF",
         "valid": true,
         "reachable": true,
         "status_code": 200,
-        "final_url": "https://lf26-imcloud-file-sign.bytetos.com/tos-cn-o-0000c2428/o4AAhAAjeppS4eEEH4g6QuPfGEfYqAPQQg4Jes?x-expires=1783610558&x-signature=0cG5POzunnSMP0dqU0FkPResF6Y%3D",
+        "final_url": "https://lf26-imcloud-file-sign.bytetos.com/tos-cn-o-0000c2428/o4AAhAAjeppS4eEEH4g6QuPfGEfYqAPQQg4Jes?x-expires=1783695241&x-signature=6wCmxyVPJ6I7FJ1fJb4eYTZOzwk%3D",
         "reason": null
       }
     },
@@ -924,14 +924,14 @@
       "error": null,
       "traceback": null,
       "timings_ms": {
-        "module_load": 4.334,
-        "init": 0.01,
+        "module_load": 4.909,
+        "init": 0.012,
         "home": 0.001,
-        "category": 723.413,
-        "detail": 280.469,
+        "category": 314.14,
+        "detail": 1248.994,
         "player": 0.002,
-        "url_check": 1022.18,
-        "total": 2030.904
+        "url_check": 1071.938,
+        "total": 2640.529
       },
       "counts": {
         "classes": 4,
@@ -941,17 +941,17 @@
       },
       "samples": {
         "tid": "2",
-        "vod_id": "https://20.90kan.cc/?id=62452",
+        "vod_id": "https://20.90kan.cc/?id=62658",
         "flag": "百度",
-        "play_id": "https://pan.baidu.com/s/1StznoOQli1WVrDJxQdhGiw?pwd=6666"
+        "play_id": "https://pan.baidu.com/s/1tg1i1lE-lBOJKhSKqZf7Sw?pwd=6666"
       },
       "player": {
         "parse": 0,
-        "url": "https://pan.baidu.com/s/1StznoOQli1WVrDJxQdhGiw?pwd=6666",
+        "url": "https://pan.baidu.com/s/1tg1i1lE-lBOJKhSKqZf7Sw?pwd=6666",
         "valid": true,
         "reachable": true,
         "status_code": 200,
-        "final_url": "https://pan.baidu.com/share/init?surl=StznoOQli1WVrDJxQdhGiw&pwd=6666",
+        "final_url": "https://pan.baidu.com/share/init?surl=tg1i1lE-lBOJKhSKqZf7Sw&pwd=6666",
         "reason": null
       }
     },
@@ -963,14 +963,14 @@
       "error": "分类视频列表为空",
       "traceback": null,
       "timings_ms": {
-        "module_load": 9.269,
+        "module_load": 6.329,
         "init": 0.001,
-        "home": 301.991,
-        "category": 283.389,
+        "home": 526.721,
+        "category": 282.627,
         "detail": 0.0,
         "player": 0.0,
         "url_check": 0.0,
-        "total": 818.461
+        "total": 1108.632
       },
       "counts": {
         "classes": 5,
@@ -1002,14 +1002,14 @@
       "error": "分类视频列表为空",
       "traceback": null,
       "timings_ms": {
-        "module_load": 5.129,
+        "module_load": 5.317,
         "init": 0.001,
         "home": 0.0,
-        "category": 1144.974,
+        "category": 427.042,
         "detail": 0.0,
         "player": 0.0,
         "url_check": 0.0,
-        "total": 1723.402
+        "total": 931.03
       },
       "counts": {
         "classes": 8,
@@ -1041,14 +1041,14 @@
       "error": "分类视频列表为空",
       "traceback": null,
       "timings_ms": {
-        "module_load": 7.459,
+        "module_load": 6.045,
         "init": 0.001,
-        "home": 0.0,
-        "category": 752.703,
+        "home": 0.001,
+        "category": 751.329,
         "detail": 0.0,
         "player": 0.0,
         "url_check": 0.0,
-        "total": 1501.085
+        "total": 1849.991
       },
       "counts": {
         "classes": 5,
@@ -1080,14 +1080,14 @@
       "error": null,
       "traceback": null,
       "timings_ms": {
-        "module_load": 4.755,
-        "init": 151.593,
-        "home": 0.086,
-        "category": 106.593,
-        "detail": 1070.292,
-        "player": 143.331,
-        "url_check": 127.754,
-        "total": 1604.99
+        "module_load": 6.359,
+        "init": 148.633,
+        "home": 0.081,
+        "category": 98.007,
+        "detail": 784.941,
+        "player": 1208.981,
+        "url_check": 1405.575,
+        "total": 3653.192
       },
       "counts": {
         "classes": 5,
@@ -1097,17 +1097,17 @@
       },
       "samples": {
         "tid": "2",
-        "vod_id": "194747",
-        "flag": "蓝光B线-在线看",
-        "play_id": "BBA@FYNB-35386463666164393565326333353735fc983be80e045041cab283616da64ec7d56a45913b520f50ef25c5792b916f4b64648d15ae06ac20ef26886b9e29eb671dea7fc6a7cc9889fe6a33841161b65b5177460483e9dbeb6b94657c2bbeaae58410bee9fe110eb68cafe752b5aec5097144d4369ed57421e510605d9ae6fa8ad87ea7e697ffa3d6a78761b260b7e0e8476a31735b41c77c404c1e2740030dfb598d30df7d353b328e1e6b3cd52d67b38734449c82075764e0b7fa97be78eff7406bfdaf5cd6323bf14109848560b0fc"
+        "vod_id": "194740",
+        "flag": "QY专线-在线看",
+        "play_id": "qiyi@https://www.iqiyi.com/v_2fs3z771f30.html"
       },
       "player": {
-        "parse": 0,
-        "url": "https://socwxsns.video.qq.com/251/20302/stodownload?encfilekey=nLWUlAoVvywJauRXpyVTXaUjiaexqAlAdljwuO2ex6XZbic3LVXB0bNNkSPOumpQ1G7Tbn4mDmHgbDezQyjic75YA&token=AxricY7RBHdW5LsJKEXvSNX9CD0gb7ofzhTaLb7sqbOWzwYNLsS6sg8cGOfvBb5RVhnVSazOeVkHrgfmyicxxIcgdtKmNX44vaDkkI57JT2pmKx7eID7qg2mbGj593blK92iaPG3Wsqk7x4HnRZh6WONLibEQx87lp2a5abSCdSwWGbDzsXTnKlTFoB9QBrmIINP93fqLpSLF6GZYe2ALmsk0fLfDms11hbhWnZO6vMFib5vH39mVBXzctdMZWXnqwLhv8XJjwOpJibUqMoKMf0TmS6YQpArPkTcOB43kJ6iaicR8mw&bizid=1023&dotrans=0&hy=SH&idx=1&m=&uzid=7a166&basedata=CAMSA3hWMCIJCgcKA3hWMBAA&sign=KvOTNTxgbD5_C86JAMezvZCoqabhO4Dn0QBhtOZACIyaxYYtQBXJbUtu4gwcHDg5xy5O9c1Hz1iFfEYQWSwWQg&filename=BBA.mp4",
+        "parse": 1,
+        "url": "https://www.iqiyi.com/v_2fs3z771f30.html",
         "valid": true,
         "reachable": true,
         "status_code": 200,
-        "final_url": "https://socwxsns.video.qq.com/251/20302/stodownload?encfilekey=nLWUlAoVvywJauRXpyVTXaUjiaexqAlAdljwuO2ex6XZbic3LVXB0bNNkSPOumpQ1G7Tbn4mDmHgbDezQyjic75YA&token=AxricY7RBHdW5LsJKEXvSNX9CD0gb7ofzhTaLb7sqbOWzwYNLsS6sg8cGOfvBb5RVhnVSazOeVkHrgfmyicxxIcgdtKmNX44vaDkkI57JT2pmKx7eID7qg2mbGj593blK92iaPG3Wsqk7x4HnRZh6WONLibEQx87lp2a5abSCdSwWGbDzsXTnKlTFoB9QBrmIINP93fqLpSLF6GZYe2ALmsk0fLfDms11hbhWnZO6vMFib5vH39mVBXzctdMZWXnqwLhv8XJjwOpJibUqMoKMf0TmS6YQpArPkTcOB43kJ6iaicR8mw&bizid=1023&dotrans=0&hy=SH&idx=1&m=&uzid=7a166&basedata=CAMSA3hWMCIJCgcKA3hWMBAA&sign=KvOTNTxgbD5_C86JAMezvZCoqabhO4Dn0QBhtOZACIyaxYYtQBXJbUtu4gwcHDg5xy5O9c1Hz1iFfEYQWSwWQg&filename=BBA.mp4",
+        "final_url": "https://m.iqiyi.com/v_2fs3z771f30.html",
         "reason": null
       }
     },
@@ -1119,14 +1119,14 @@
       "error": null,
       "traceback": null,
       "timings_ms": {
-        "module_load": 5.24,
+        "module_load": 6.605,
         "init": 0.001,
-        "home": 0.001,
-        "category": 245.011,
-        "detail": 430.572,
-        "player": 441.118,
-        "url_check": 1048.95,
-        "total": 2171.646
+        "home": 0.0,
+        "category": 489.585,
+        "detail": 410.426,
+        "player": 518.924,
+        "url_check": 1314.873,
+        "total": 2741.156
       },
       "counts": {
         "classes": 6,
@@ -1158,14 +1158,14 @@
       "error": null,
       "traceback": null,
       "timings_ms": {
-        "module_load": 4.354,
-        "init": 0.0,
+        "module_load": 7.123,
+        "init": 0.001,
         "home": 0.001,
-        "category": 813.282,
-        "detail": 191.909,
-        "player": 268.109,
-        "url_check": 250.253,
-        "total": 1528.314
+        "category": 1522.126,
+        "detail": 826.568,
+        "player": 185.476,
+        "url_check": 726.721,
+        "total": 3268.938
       },
       "counts": {
         "classes": 5,
@@ -1181,11 +1181,11 @@
       },
       "player": {
         "parse": 0,
-        "url": "https://pcvideo.5g.wasu.tv/pcsan24/pc/movie/2026-07/02/202607021307036732biJW0hQ/playlist.m3u8?auth_key=1783605103-0-0-9e6254f932db127d34d130d98a192881",
+        "url": "https://pcvideo.5g.wasu.tv/pcsan24/pc/movie/2026-07/02/202607021307036732biJW0hQ/playlist.m3u8?auth_key=1783688563-0-0-5ce90036dd90310551955d6ae9998b46",
         "valid": true,
         "reachable": true,
         "status_code": 200,
-        "final_url": "https://pcvideo.5g.wasu.tv/pcsan24/pc/movie/2026-07/02/202607021307036732biJW0hQ/playlist.m3u8?auth_key=1783605103-0-0-9e6254f932db127d34d130d98a192881",
+        "final_url": "https://pcvideo.5g.wasu.tv/pcsan24/pc/movie/2026-07/02/202607021307036732biJW0hQ/playlist.m3u8?auth_key=1783688563-0-0-5ce90036dd90310551955d6ae9998b46",
         "reason": null
       }
     },
@@ -1197,14 +1197,14 @@
       "error": null,
       "traceback": null,
       "timings_ms": {
-        "module_load": 4.469,
+        "module_load": 6.057,
         "init": 0.001,
-        "home": 2835.493,
-        "category": 251.463,
-        "detail": 739.336,
-        "player": 0.002,
-        "url_check": 161.445,
-        "total": 3992.587
+        "home": 3426.932,
+        "category": 271.93,
+        "detail": 707.145,
+        "player": 0.004,
+        "url_check": 618.204,
+        "total": 5030.705
       },
       "counts": {
         "classes": 11,
@@ -1229,6 +1229,45 @@
       }
     },
     {
+      "spider": "双子星",
+      "file": "双子星.txt",
+      "success": true,
+      "failed_stage": null,
+      "error": null,
+      "traceback": null,
+      "timings_ms": {
+        "module_load": 5.023,
+        "init": 0.006,
+        "home": 431.103,
+        "category": 84.86,
+        "detail": 186.353,
+        "player": 0.004,
+        "url_check": 624.59,
+        "total": 1332.575
+      },
+      "counts": {
+        "classes": 6,
+        "category_videos": 21,
+        "detail_videos": 1,
+        "episodes": 2
+      },
+      "samples": {
+        "tid": "1",
+        "vod_id": "11404",
+        "flag": "线路D",
+        "play_id": "http://jx1-jiexijiekou.050713.xyz/m3u8/m3u812/1783583955.m3u8"
+      },
+      "player": {
+        "parse": 0,
+        "url": "http://jx1-jiexijiekou.050713.xyz/m3u8/m3u812/1783583955.m3u8",
+        "valid": true,
+        "reachable": true,
+        "status_code": 200,
+        "final_url": "http://jx1-jiexijiekou.050713.xyz/m3u8/m3u812/1783583955.m3u8",
+        "reason": null
+      }
+    },
+    {
       "spider": "双星",
       "file": "双星.txt",
       "success": true,
@@ -1236,14 +1275,14 @@
       "error": null,
       "traceback": null,
       "timings_ms": {
-        "module_load": 3.865,
-        "init": 438.437,
-        "home": 0.005,
-        "category": 169.375,
-        "detail": 175.114,
+        "module_load": 3.505,
+        "init": 927.19,
+        "home": 0.007,
+        "category": 168.135,
+        "detail": 184.289,
         "player": 0.002,
-        "url_check": 161.661,
-        "total": 949.128
+        "url_check": 163.305,
+        "total": 1447.243
       },
       "counts": {
         "classes": 7,
@@ -1275,14 +1314,14 @@
       "error": null,
       "traceback": null,
       "timings_ms": {
-        "module_load": 4.002,
-        "init": 89.865,
-        "home": 0.001,
-        "category": 168.67,
-        "detail": 2629.833,
-        "player": 312.489,
-        "url_check": 92.315,
-        "total": 3298.139
+        "module_load": 4.001,
+        "init": 84.741,
+        "home": 0.002,
+        "category": 542.663,
+        "detail": 1710.913,
+        "player": 304.455,
+        "url_check": 162.972,
+        "total": 2810.51
       },
       "counts": {
         "classes": 11,
@@ -1298,11 +1337,11 @@
       },
       "player": {
         "parse": 0,
-        "url": "http://audiopay.cos.tx.xmcdn.com/download/1.0.0/storages/b817-audiopay/16/AA/GKwRIaIGGaRGADgE-gEx_hMS-aacv2-48K.m4a?sign=38ea8d1b1820a0ed9641b05f0215fd0f&buy_key=FM&token=5677&timestamp=1783605106&duration=453",
+        "url": "http://audiopay.cos.tx.xmcdn.com/download/1.0.0/storages/b817-audiopay/16/AA/GKwRIaIGGaRGADgE-gEx_hMS-aacv2-48K.m4a?sign=a1642c5796fe050ff5a7d217677afa4a&buy_key=FM&token=2259&timestamp=1783688564&duration=453",
         "valid": true,
         "reachable": true,
         "status_code": 200,
-        "final_url": "http://audiopay.cos.tx.xmcdn.com/download/1.0.0/storages/b817-audiopay/16/AA/GKwRIaIGGaRGADgE-gEx_hMS-aacv2-48K.m4a?sign=38ea8d1b1820a0ed9641b05f0215fd0f&buy_key=FM&token=5677&timestamp=1783605106&duration=453",
+        "final_url": "http://audiopay.cos.tx.xmcdn.com/download/1.0.0/storages/b817-audiopay/16/AA/GKwRIaIGGaRGADgE-gEx_hMS-aacv2-48K.m4a?sign=a1642c5796fe050ff5a7d217677afa4a&buy_key=FM&token=2259&timestamp=1783688564&duration=453",
         "reason": null
       }
     },
@@ -1314,14 +1353,14 @@
       "error": null,
       "traceback": null,
       "timings_ms": {
-        "module_load": 7.362,
+        "module_load": 11.799,
         "init": 0.001,
-        "home": 399.945,
-        "category": 304.391,
-        "detail": 519.225,
-        "player": 295.192,
-        "url_check": 139.844,
-        "total": 1667.405
+        "home": 419.652,
+        "category": 341.535,
+        "detail": 479.645,
+        "player": 292.765,
+        "url_check": 700.36,
+        "total": 2246.826
       },
       "counts": {
         "classes": 8,
@@ -1337,11 +1376,11 @@
       },
       "player": {
         "parse": 0,
-        "url": "https://file.hgeuz.cn/stream/eJwANwDI_wJVZgVKIIrU0ECux-GJ1PSt38ahythCqsH-r9TAQ4rj5F94rOjbQKjk063xyIX2z3hfeGcIHF4BAAD__5DtISY.?ts=1783604566&sign=a3d75703562cef727660d77ffc26f4db",
+        "url": "https://file.hgeuz.cn/stream/eJwANwDI_wJVZgVKIIrU0ECux-GJ1PSt38ahythCqsH-r9TAQ4rj5F94rOjbQKjk063xyIX2z3hfeGcIHF4BAAD__5DtISY.?ts=1783688563&sign=dd98d60a1d792809be40b7ca29689e83",
         "valid": true,
         "reachable": true,
         "status_code": 200,
-        "final_url": "https://file.hgeuz.cn/stream/eJwANwDI_wJVZgVKIIrU0ECux-GJ1PSt38ahythCqsH-r9TAQ4rj5F94rOjbQKjk063xyIX2z3hfeGcIHF4BAAD__5DtISY.?ts=1783604566&sign=a3d75703562cef727660d77ffc26f4db",
+        "final_url": "https://file.hgeuz.cn/stream/eJwANwDI_wJVZgVKIIrU0ECux-GJ1PSt38ahythCqsH-r9TAQ4rj5F94rOjbQKjk063xyIX2z3hfeGcIHF4BAAD__5DtISY.?ts=1783688563&sign=dd98d60a1d792809be40b7ca29689e83",
         "reason": null
       }
     },
@@ -1353,14 +1392,14 @@
       "error": null,
       "traceback": null,
       "timings_ms": {
-        "module_load": 8.161,
+        "module_load": 7.895,
         "init": 0.005,
-        "home": 880.376,
-        "category": 888.267,
-        "detail": 664.538,
-        "player": 2193.315,
-        "url_check": 494.441,
-        "total": 5130.416
+        "home": 555.299,
+        "category": 564.62,
+        "detail": 489.102,
+        "player": 1810.281,
+        "url_check": 56.236,
+        "total": 3484.115
       },
       "counts": {
         "classes": 3,
@@ -1370,17 +1409,17 @@
       },
       "samples": {
         "tid": "6",
-        "vod_id": "5075",
+        "vod_id": "5030",
         "flag": "咕咕新线(国内高速)",
-        "play_id": "parse_api=a2796a09189261bcaf3cc4542d7c5ac2&url=XOu3oG4xnnHOD2MhcPqcrDnIc3ODKrg5TqF8Xt/v1HxbEyTWWql/6wOKeoRUR+KI&token=|雷霆三人行|1"
+        "play_id": "parse_api=a2796a09189261bcaf3cc4542d7c5ac2&url=RWo96m6GXJ77to0GUn9Ac2rpTQrBNIOfkkMX1+hwxXyVWJjBlQ1w/Dh2uW1rJqXl&token=|遭到流放的转生重骑士凭借游戏知识大开无双|1"
       },
       "player": {
         "parse": 0,
-        "url": "https://p9-bot-workflow-sign.byteimg.com/tos-cn-i-mdko3gqilj/6305c77cd2b04866bf877537860de3b6~tplv-mdko3gqilj-image.image?rk3s=81d4c505&x-expires=1814709107&x-signature=ucJLq129Sa9kg%2B%2BCl6JHaoYdgJw%3D",
+        "url": "https://p9-bot-workflow-sign.byteimg.com/tos-cn-i-mdko3gqilj/32045346ddfe49e583c390b926c26ee0~tplv-mdko3gqilj-image.image?rk3s=81d4c505&x-expires=1814792565&x-signature=pTIIwGRbtyAmoPyeA4R%2BmNsAVxQ%3D",
         "valid": true,
         "reachable": true,
         "status_code": 200,
-        "final_url": "https://p9-bot-workflow-sign.byteimg.com/tos-cn-i-mdko3gqilj/6305c77cd2b04866bf877537860de3b6~tplv-mdko3gqilj-image.image?rk3s=81d4c505&x-expires=1814709107&x-signature=ucJLq129Sa9kg%2B%2BCl6JHaoYdgJw%3D",
+        "final_url": "https://p9-bot-workflow-sign.byteimg.com/tos-cn-i-mdko3gqilj/32045346ddfe49e583c390b926c26ee0~tplv-mdko3gqilj-image.image?rk3s=81d4c505&x-expires=1814792565&x-signature=pTIIwGRbtyAmoPyeA4R%2BmNsAVxQ%3D",
         "reason": null
       }
     },
@@ -1392,14 +1431,14 @@
       "error": "HTTPSConnectionPool(host='40000.me', port=443): Read timed out. (read timeout=10)",
       "traceback": null,
       "timings_ms": {
-        "module_load": 4.358,
+        "module_load": 4.598,
         "init": 0.001,
         "home": 0.001,
-        "category": 10017.002,
+        "category": 10021.539,
         "detail": 0.0,
         "player": 0.0,
         "url_check": 0.0,
-        "total": 20038.275
+        "total": 20045.286
       },
       "counts": {
         "classes": 5,
@@ -1431,14 +1470,14 @@
       "error": "HTTP 403",
       "traceback": null,
       "timings_ms": {
-        "module_load": 6.186,
+        "module_load": 6.579,
         "init": 0.001,
         "home": 0.001,
-        "category": 667.786,
-        "detail": 1439.42,
-        "player": 981.2,
-        "url_check": 320.116,
-        "total": 6716.795
+        "category": 679.844,
+        "detail": 1520.194,
+        "player": 1448.776,
+        "url_check": 307.412,
+        "total": 7465.63
       },
       "counts": {
         "classes": 6,
@@ -1470,14 +1509,14 @@
       "error": null,
       "traceback": null,
       "timings_ms": {
-        "module_load": 9.693,
+        "module_load": 10.236,
         "init": 0.001,
         "home": 0.001,
-        "category": 416.198,
-        "detail": 501.215,
-        "player": 0.022,
-        "url_check": 1163.523,
-        "total": 2091.272
+        "category": 810.133,
+        "detail": 610.506,
+        "player": 0.005,
+        "url_check": 1281.777,
+        "total": 2713.125
       },
       "counts": {
         "classes": 6,
@@ -1509,14 +1548,14 @@
       "error": null,
       "traceback": null,
       "timings_ms": {
-        "module_load": 4.258,
+        "module_load": 4.655,
         "init": 0.001,
-        "home": 0.007,
-        "category": 775.171,
-        "detail": 373.909,
-        "player": 0.004,
-        "url_check": 881.428,
-        "total": 2035.693
+        "home": 0.008,
+        "category": 1321.681,
+        "detail": 341.239,
+        "player": 0.008,
+        "url_check": 1992.13,
+        "total": 3660.675
       },
       "counts": {
         "classes": 6,
@@ -1548,14 +1587,14 @@
       "error": "分类列表为空",
       "traceback": null,
       "timings_ms": {
-        "module_load": 10.332,
-        "init": 470.571,
-        "home": 528.484,
+        "module_load": 11.768,
+        "init": 440.866,
+        "home": 468.103,
         "category": 0.0,
         "detail": 0.0,
         "player": 0.0,
         "url_check": 0.0,
-        "total": 1009.579
+        "total": 921.063
       },
       "counts": {
         "classes": 0,
@@ -1587,14 +1626,14 @@
       "error": null,
       "traceback": null,
       "timings_ms": {
-        "module_load": 4.618,
-        "init": 113.65,
-        "home": 81.382,
-        "category": 652.785,
-        "detail": 751.935,
-        "player": 523.769,
-        "url_check": 97.434,
-        "total": 2226.112
+        "module_load": 9.858,
+        "init": 667.665,
+        "home": 651.731,
+        "category": 552.414,
+        "detail": 1726.599,
+        "player": 1194.128,
+        "url_check": 690.715,
+        "total": 5493.969
       },
       "counts": {
         "classes": 8,
@@ -1604,17 +1643,17 @@
       },
       "samples": {
         "tid": "M16",
-        "vod_id": "908667",
-        "flag": "YK",
-        "play_id": "908667@85@16971687@episode"
+        "vod_id": "852596",
+        "flag": "TX-4K",
+        "play_id": "852596@84@17684770@episode"
       },
       "player": {
         "parse": "0",
-        "url": "http://110.42.49.74:2222/jx/cache/scorpio_m3u8/ddf418344befc3b8714b7f1357714820.m3u8",
+        "url": "https://ltstysj.gtimg.com/B_e4M_hKuDDf06Trq34wH44gnmAFlYnoSQHIYbqhyCHLIQ0Ms92T0yoPI5hXsxBPUbTtd63obwRd1LLLC8UnMJEUl3NIeMeQws6QLK9bnf0J0sZJ7k1kGXJJnKFS9SMU0QnC0rVGEZQrwqEhzHTmjBoA/svp_50112/SJ_taWurlAeHgaKe86bJIv9he-H77zJXKUt_86FQmN4tKLLfrOpWqA22Wq1dXb2dPgHq0qpa3XqEn-FuisZYhwDou04gz23XIIJClmHYVAXu-P2IN3ZkklDs_DiV8-xEQXCuCSDiulA_SAHBq9MBIKEgZcIMB7dIU5er6TN3hnmyBYscFGzJyVH4ot1X3mYE/gzc_1000102_0b53x4aeuaaaaeaebkqkarumbp6djkzqatsa.f322016008.ts.m3u8?ver=4&zhuiyi",
         "valid": true,
         "reachable": true,
         "status_code": 200,
-        "final_url": "http://110.42.49.74:2222/jx/cache/scorpio_m3u8/ddf418344befc3b8714b7f1357714820.m3u8",
+        "final_url": "https://ltstysj.gtimg.com/B_e4M_hKuDDf06Trq34wH44gnmAFlYnoSQHIYbqhyCHLIQ0Ms92T0yoPI5hXsxBPUbTtd63obwRd1LLLC8UnMJEUl3NIeMeQws6QLK9bnf0J0sZJ7k1kGXJJnKFS9SMU0QnC0rVGEZQrwqEhzHTmjBoA/svp_50112/SJ_taWurlAeHgaKe86bJIv9he-H77zJXKUt_86FQmN4tKLLfrOpWqA22Wq1dXb2dPgHq0qpa3XqEn-FuisZYhwDou04gz23XIIJClmHYVAXu-P2IN3ZkklDs_DiV8-xEQXCuCSDiulA_SAHBq9MBIKEgZcIMB7dIU5er6TN3hnmyBYscFGzJyVH4ot1X3mYE/gzc_1000102_0b53x4aeuaaaaeaebkqkarumbp6djkzqatsa.f322016008.ts.m3u8?ver=4&zhuiyi",
         "reason": null
       }
     },
@@ -1626,14 +1665,14 @@
       "error": null,
       "traceback": null,
       "timings_ms": {
-        "module_load": 5.756,
+        "module_load": 5.847,
         "init": 0.001,
         "home": 0.001,
-        "category": 788.663,
-        "detail": 779.171,
-        "player": 1032.592,
-        "url_check": 288.351,
-        "total": 2895.45
+        "category": 839.687,
+        "detail": 747.95,
+        "player": 1097.863,
+        "url_check": 815.155,
+        "total": 3507.3
       },
       "counts": {
         "classes": 4,
@@ -1649,50 +1688,50 @@
       },
       "player": {
         "parse": 0,
-        "url": "https://media-bjcy-fy-person01.bjoss.ctyunxs.cn/PERSONCLOUD/874f908a-f9df-4538-942a-7342fda0ff8a.m3u8?x-amz-CLIENTTYPEIN=UNKNOWN&AWSAccessKeyId=0Lg7dAq3ZfHvePP8DKEU&x-amz-userLevel=0&x-amz-limitrate=51200&x-amz-UID=269636103&x-amz-APPID=828221&response-content-disposition=attachment%3Bfilename%3D%22%E6%AD%A3%E7%89%87.m3u8%22%3Bfilename*%3DUTF-8%27%27%25E6%25AD%25A3%25E7%2589%2587.m3u8&x-amz-CLIENTNETWORK=UNKNOWN&x-amz-CLOUDTYPEIN=PERSON&Signature=IHpaIuaSXQCHkjs9AFVtN4fd8KI%3D&Expires=1783605237&x-amz-FSIZE=58373&x-amz-UFID=624471240788981016",
+        "url": "https://media-bjcy-fy-person01.bjoss.ctyunxs.cn/PERSONCLOUD/874f908a-f9df-4538-942a-7342fda0ff8a.m3u8?x-amz-CLIENTTYPEIN=UNKNOWN&AWSAccessKeyId=0Lg7dAq3ZfHvePP8DKEU&x-amz-userLevel=0&x-amz-limitrate=51200&x-amz-UID=269636103&x-amz-APPID=828221&response-content-disposition=attachment%3Bfilename%3D%22%E6%AD%A3%E7%89%87.m3u8%22%3Bfilename*%3DUTF-8%27%27%25E6%25AD%25A3%25E7%2589%2587.m3u8&x-amz-CLIENTNETWORK=UNKNOWN&x-amz-CLOUDTYPEIN=PERSON&Signature=ECwI9DxVwUAGVoyBYA6yGL1zYBI%3D&Expires=1783688654&x-amz-FSIZE=58373&x-amz-UFID=624471240788981016",
         "valid": true,
         "reachable": true,
         "status_code": 200,
-        "final_url": "https://media-bjcy-fy-person01.bjoss.ctyunxs.cn/PERSONCLOUD/874f908a-f9df-4538-942a-7342fda0ff8a.m3u8?x-amz-CLIENTTYPEIN=UNKNOWN&AWSAccessKeyId=0Lg7dAq3ZfHvePP8DKEU&x-amz-userLevel=0&x-amz-limitrate=51200&x-amz-UID=269636103&x-amz-APPID=828221&response-content-disposition=attachment%3Bfilename%3D%22%E6%AD%A3%E7%89%87.m3u8%22%3Bfilename*%3DUTF-8%27%27%25E6%25AD%25A3%25E7%2589%2587.m3u8&x-amz-CLIENTNETWORK=UNKNOWN&x-amz-CLOUDTYPEIN=PERSON&Signature=IHpaIuaSXQCHkjs9AFVtN4fd8KI%3D&Expires=1783605237&x-amz-FSIZE=58373&x-amz-UFID=624471240788981016",
+        "final_url": "https://media-bjcy-fy-person01.bjoss.ctyunxs.cn/PERSONCLOUD/874f908a-f9df-4538-942a-7342fda0ff8a.m3u8?x-amz-CLIENTTYPEIN=UNKNOWN&AWSAccessKeyId=0Lg7dAq3ZfHvePP8DKEU&x-amz-userLevel=0&x-amz-limitrate=51200&x-amz-UID=269636103&x-amz-APPID=828221&response-content-disposition=attachment%3Bfilename%3D%22%E6%AD%A3%E7%89%87.m3u8%22%3Bfilename*%3DUTF-8%27%27%25E6%25AD%25A3%25E7%2589%2587.m3u8&x-amz-CLIENTNETWORK=UNKNOWN&x-amz-CLOUDTYPEIN=PERSON&Signature=ECwI9DxVwUAGVoyBYA6yGL1zYBI%3D&Expires=1783688654&x-amz-FSIZE=58373&x-amz-UFID=624471240788981016",
         "reason": null
       }
     },
     {
       "spider": "微观短剧",
       "file": "微观短剧.txt",
-      "success": true,
-      "failed_stage": null,
-      "error": null,
+      "success": false,
+      "failed_stage": "detail",
+      "error": "详情缺少播放源或播放列表",
       "traceback": null,
       "timings_ms": {
-        "module_load": 3.659,
-        "init": 0.018,
-        "home": 188.075,
-        "category": 270.959,
-        "detail": 342.639,
-        "player": 0.002,
-        "url_check": 242.955,
-        "total": 1048.931
+        "module_load": 4.085,
+        "init": 0.044,
+        "home": 517.292,
+        "category": 225.016,
+        "detail": 194.176,
+        "player": 0.0,
+        "url_check": 0.0,
+        "total": 1371.879
       },
       "counts": {
         "classes": 30,
         "category_videos": 30,
         "detail_videos": 1,
-        "episodes": 2
+        "episodes": 0
       },
       "samples": {
-        "tid": "逆袭",
-        "vod_id": "110000046951321516",
-        "flag": "1080P",
-        "play_id": "https://tv-video.cdn.drama.9ddm.com/C3/C6/C3C63266E20AF3BE7BCB58DC9CA61DEF.mp4?timestamp=1783605105&sign=b933a8863db42a71e169add1c83731d2"
+        "tid": "都市",
+        "vod_id": "110000044555935694",
+        "flag": null,
+        "play_id": null
       },
       "player": {
-        "parse": 0,
-        "url": "https://tv-video.cdn.drama.9ddm.com/C3/C6/C3C63266E20AF3BE7BCB58DC9CA61DEF.mp4?timestamp=1783605105&sign=b933a8863db42a71e169add1c83731d2",
-        "valid": true,
-        "reachable": true,
-        "status_code": 200,
-        "final_url": "https://tv-video.cdn.drama.9ddm.com/C3/C6/C3C63266E20AF3BE7BCB58DC9CA61DEF.mp4?timestamp=1783605105&sign=b933a8863db42a71e169add1c83731d2",
+        "parse": null,
+        "url": "",
+        "valid": false,
+        "reachable": null,
+        "status_code": null,
+        "final_url": "",
         "reason": null
       }
     },
@@ -1704,14 +1743,14 @@
       "error": null,
       "traceback": null,
       "timings_ms": {
-        "module_load": 7.095,
-        "init": 0.007,
-        "home": 474.518,
-        "category": 180.7,
-        "detail": 180.454,
-        "player": 409.989,
-        "url_check": 191.282,
-        "total": 1444.774
+        "module_load": 6.888,
+        "init": 0.006,
+        "home": 1024.656,
+        "category": 201.13,
+        "detail": 173.464,
+        "player": 219.723,
+        "url_check": 81.777,
+        "total": 1707.995
       },
       "counts": {
         "classes": 8,
@@ -1721,17 +1760,17 @@
       },
       "samples": {
         "tid": "1",
-        "vod_id": "45609",
-        "flag": "线·叁",
-        "play_id": "parse_api=4a720977ebfe3f13296b548e51cc3355&url=611p37LonDpZAHicxCJ+facYpVM7jxouVplKGqwA1Hw+MqN4uMZhd3cCQT2w7BWzyjeBTuHyQgk1vcQPOBk0UL2bYKrN/NIvrATp0xUwoGko1zES0zxJsUiN2eKfaqgCmbmG0e5LOiYgLfbe2V0REW6SIPU+b0ISzvkiCEbWHNrKxrFGo8MwV5iJuHdIJkX+&token=|呼啸山庄|1"
+        "vod_id": "51823",
+        "flag": "线·壹",
+        "play_id": "parse_api=4a720977ebfe3f13296b548e51cc3355&url=TqDHR464zeDAoORBa2Wy8Yka0zFIbBRUiRE2PBB7Jn6NqHfIMChb0m6fMDG66TqOWwPaCZKYbc6UOTBRXBlQsXpasER0zZGssTj0gAhXRYyPvE/E8PXLyPrp3fD37VybqjkxE0Opx5xLRWzefeXk4QqhSP60srRq+CwGebhRdcYuysd04+/BLR/BD1GvjHts&token=|菜肉馄饨|1"
       },
       "player": {
         "parse": 0,
-        "url": "https://nsys-m3u8-ks.oss-cn-beijing.aliyuncs.com/52a5b6a2fc26f8b49205e6451b045e3e.m3u8",
+        "url": "http://211.154.21.15:9090/nby/m3u8/getM3u8?name=jx.91by.top&time=1783688565815&url=NBY-82002398f6a510c43a97fd560e9b21a3.m3u8",
         "valid": true,
         "reachable": true,
         "status_code": 200,
-        "final_url": "https://nsys-m3u8-ks.oss-cn-beijing.aliyuncs.com/52a5b6a2fc26f8b49205e6451b045e3e.m3u8",
+        "final_url": "http://211.154.21.15:9090/nby/m3u8/getM3u8?name=jx.91by.top&time=1783688565815&url=NBY-82002398f6a510c43a97fd560e9b21a3.m3u8",
         "reason": null
       }
     },
@@ -1743,14 +1782,14 @@
       "error": null,
       "traceback": null,
       "timings_ms": {
-        "module_load": 6.767,
-        "init": 0.012,
-        "home": 208.072,
-        "category": 215.662,
-        "detail": 126.002,
-        "player": 0.038,
-        "url_check": 1206.546,
-        "total": 2135.325
+        "module_load": 6.405,
+        "init": 0.011,
+        "home": 196.081,
+        "category": 198.554,
+        "detail": 116.369,
+        "player": 77.933,
+        "url_check": 122.77,
+        "total": 718.831
       },
       "counts": {
         "classes": 5,
@@ -1760,17 +1799,17 @@
       },
       "samples": {
         "tid": "1",
-        "vod_id": "193652",
-        "flag": "高清③",
-        "play_id": "app88:WyJodHRwczovL3ZpcC5mZnp5LXBsYXk5LmNvbS8yMDI2MDcwOS80NTAyNV8zMjdkZmZmMS9pbmRleC5tM3U4IiwiZmZtM3U4Iiwi6ay8546p5Lq6Njrngrzni7EiLCIxIl0"
+        "vod_id": "27481",
+        "flag": "QY专线",
+        "play_id": "app88:WyJodHRwczovL3d3dy5pcWl5aS5jb20vdl8xOXJyanB4em5rLmh0bWwiLCJxaXlpIiwi546p5YW35oC75Yqo5ZGYIiwiMSJd"
       },
       "player": {
         "parse": 0,
-        "url": "https://vip.ffzy-play9.com/20260709/45025_327dfff1/index.m3u8",
+        "url": "https://www.iqiyi.com/v_19rrjpxznk.html",
         "valid": true,
         "reachable": true,
         "status_code": 200,
-        "final_url": "https://vip.ffzy-play9.com/20260709/45025_327dfff1/index.m3u8",
+        "final_url": "https://www.iqiyi.com/v_19rrjpxznk.html",
         "reason": null
       }
     },
@@ -1782,14 +1821,14 @@
       "error": null,
       "traceback": null,
       "timings_ms": {
-        "module_load": 7.326,
-        "init": 0.001,
-        "home": 211.904,
-        "category": 253.959,
-        "detail": 270.907,
-        "player": 338.561,
-        "url_check": 64.184,
-        "total": 1147.64
+        "module_load": 4.673,
+        "init": 0.0,
+        "home": 300.08,
+        "category": 300.294,
+        "detail": 411.838,
+        "player": 427.439,
+        "url_check": 74.429,
+        "total": 1519.307
       },
       "counts": {
         "classes": 1,
@@ -1799,17 +1838,17 @@
       },
       "samples": {
         "tid": "movlist/",
-        "vod_id": "/movie/40405",
+        "vod_id": "/movie/85472",
         "flag": "预告片",
-        "play_id": "/show/195637"
+        "play_id": "/show/195644"
       },
       "player": {
         "parse": 0,
-        "url": "https://vfx.mtime.cn/Video/2026/07/08/mp4/260708155205816198.mp4",
+        "url": "https://vfx.mtime.cn/Video/2026/07/09/mp4/260709104742568139.mp4",
         "valid": true,
         "reachable": true,
         "status_code": 200,
-        "final_url": "https://vfx.mtime.cn/Video/2026/07/08/mp4/260708155205816198.mp4",
+        "final_url": "https://vfx.mtime.cn/Video/2026/07/09/mp4/260709104742568139.mp4",
         "reason": null
       }
     },
@@ -1821,14 +1860,14 @@
       "error": null,
       "traceback": null,
       "timings_ms": {
-        "module_load": 4.783,
+        "module_load": 4.454,
         "init": 0.001,
-        "home": 0.001,
-        "category": 597.903,
-        "detail": 662.09,
-        "player": 581.649,
-        "url_check": 915.973,
-        "total": 2762.991
+        "home": 0.0,
+        "category": 971.808,
+        "detail": 638.853,
+        "player": 523.322,
+        "url_check": 1961.4,
+        "total": 4100.394
       },
       "counts": {
         "classes": 5,
@@ -1838,17 +1877,17 @@
       },
       "samples": {
         "tid": "1",
-        "vod_id": "3706",
+        "vod_id": "3684",
         "flag": "在线云播",
-        "play_id": "3706_1_1"
+        "play_id": "3684_1_1"
       },
       "player": {
         "parse": 0,
-        "url": "https://cdn.yzzyvip-29.com/20260707/25534_f5011865/index.m3u8",
+        "url": "https://cdn.yzzy27-play.com/20260528/25176_7d3d7e89/index.m3u8",
         "valid": true,
         "reachable": true,
         "status_code": 200,
-        "final_url": "https://cdn.yzzyvip-29.com/20260707/25534_f5011865/index.m3u8",
+        "final_url": "https://cdn.yzzy27-play.com/20260528/25176_7d3d7e89/index.m3u8",
         "reason": null
       }
     },
@@ -1860,14 +1899,14 @@
       "error": null,
       "traceback": null,
       "timings_ms": {
-        "module_load": 3.945,
+        "module_load": 4.593,
         "init": 0.001,
         "home": 0.001,
-        "category": 496.128,
-        "detail": 449.996,
-        "player": 0.002,
-        "url_check": 119.265,
-        "total": 1069.902
+        "category": 684.211,
+        "detail": 786.97,
+        "player": 0.003,
+        "url_check": 1551.936,
+        "total": 3028.184
       },
       "counts": {
         "classes": 5,
@@ -1899,14 +1938,14 @@
       "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
       "traceback": null,
       "timings_ms": {
-        "module_load": 8.661,
+        "module_load": 7.017,
         "init": 0.001,
-        "home": 0.001,
-        "category": 604.45,
+        "home": 0.0,
+        "category": 769.365,
         "detail": 0.0,
         "player": 0.0,
         "url_check": 0.0,
-        "total": 1231.914
+        "total": 1654.313
       },
       "counts": {
         "classes": 7,
@@ -1938,14 +1977,14 @@
       "error": null,
       "traceback": null,
       "timings_ms": {
-        "module_load": 4.457,
+        "module_load": 4.511,
         "init": 0.001,
         "home": 0.001,
-        "category": 4054.781,
-        "detail": 3961.001,
-        "player": 2316.863,
-        "url_check": 889.615,
-        "total": 11227.359
+        "category": 1842.444,
+        "detail": 1073.764,
+        "player": 1834.289,
+        "url_check": 1984.385,
+        "total": 6740.162
       },
       "counts": {
         "classes": 4,
@@ -1955,17 +1994,17 @@
       },
       "samples": {
         "tid": "guoman",
-        "vod_id": "12",
+        "vod_id": "19854",
         "flag": "高清",
-        "play_id": "/play/12-1-1/"
+        "play_id": "/play/19854-1-1/"
       },
       "player": {
         "parse": 0,
-        "url": "https://yzzy.play-cdn2.com/20220408/8953_8c6f0de5/index.m3u8",
+        "url": "https://vip.ffzy-plays.com/20260703/55364_07183248/index.m3u8",
         "valid": true,
         "reachable": true,
         "status_code": 200,
-        "final_url": "https://yzzy.play-cdn2.com/20220408/8953_8c6f0de5/index.m3u8",
+        "final_url": "https://vip.ffzy-plays.com/20260703/55364_07183248/index.m3u8",
         "reason": null
       }
     },
@@ -1977,14 +2016,14 @@
       "error": null,
       "traceback": null,
       "timings_ms": {
-        "module_load": 4.649,
-        "init": 362.593,
-        "home": 394.176,
-        "category": 401.936,
-        "detail": 439.208,
-        "player": 1489.519,
-        "url_check": 1113.834,
-        "total": 4206.693
+        "module_load": 3.926,
+        "init": 427.131,
+        "home": 368.384,
+        "category": 375.147,
+        "detail": 384.762,
+        "player": 1270.138,
+        "url_check": 1600.45,
+        "total": 4430.59
       },
       "counts": {
         "classes": 8,
@@ -1994,17 +2033,17 @@
       },
       "samples": {
         "tid": "50",
-        "vod_id": "416668",
+        "vod_id": "423699",
         "flag": "一起看APP",
-        "play_id": "25976872"
+        "play_id": "26158351"
       },
       "player": {
         "parse": 0,
-        "url": "https://usaydd.5gwcft9h.com/m3u87/share/7954569/8149947/20260623/101556/1080/index.m3u8?sign=72d28aacad5f1f2a77d082905b050eb6&t=1783605108",
+        "url": "https://usaydd.0rvgx279.com/m3u87/share/8176749/8371585/20260709/100716/1080/index.m3u8?sign=57dc0c657c113302cf386f79469ad981&t=1783688567",
         "valid": true,
         "reachable": true,
         "status_code": 200,
-        "final_url": "https://usaydd.5gwcft9h.com/m3u87/share/7954569/8149947/20260623/101556/1080/index.m3u8?sign=72d28aacad5f1f2a77d082905b050eb6&t=1783605108",
+        "final_url": "https://usaydd.0rvgx279.com/m3u87/share/8176749/8371585/20260709/100716/1080/index.m3u8?sign=57dc0c657c113302cf386f79469ad981&t=1783688567",
         "reason": null
       }
     },
@@ -2016,14 +2055,14 @@
       "error": "详情缺少播放源或播放列表",
       "traceback": null,
       "timings_ms": {
-        "module_load": 6.799,
-        "init": 276.375,
-        "home": 321.24,
-        "category": 168.174,
-        "detail": 116.249,
+        "module_load": 5.422,
+        "init": 850.912,
+        "home": 298.193,
+        "category": 2640.869,
+        "detail": 111.951,
         "player": 0.0,
         "url_check": 0.0,
-        "total": 1154.509
+        "total": 4158.996
       },
       "counts": {
         "classes": 7,
@@ -2033,7 +2072,7 @@
       },
       "samples": {
         "tid": "21",
-        "vod_id": "160053",
+        "vod_id": "538394",
         "flag": null,
         "play_id": null
       },
@@ -2055,14 +2094,14 @@
       "error": null,
       "traceback": null,
       "timings_ms": {
-        "module_load": 12.799,
+        "module_load": 8.058,
         "init": 0.001,
         "home": 0.001,
-        "category": 276.981,
-        "detail": 329.096,
+        "category": 249.589,
+        "detail": 484.205,
         "player": 0.005,
-        "url_check": 1151.208,
-        "total": 1770.721
+        "url_check": 1466.38,
+        "total": 2208.69
       },
       "counts": {
         "classes": 6,
@@ -2072,17 +2111,17 @@
       },
       "samples": {
         "tid": "1",
-        "vod_id": "31643",
+        "vod_id": "31676",
         "flag": "百度",
-        "play_id": "https://pan.baidu.com/s/1xLe5I6nsasMpKc3u8vI79Q?pwd=8888"
+        "play_id": "https://pan.baidu.com/s/1vEiAf1VDs4gBHIfmz-xBRw?pwd=8888"
       },
       "player": {
         "parse": 0,
-        "url": "https://pan.baidu.com/s/1xLe5I6nsasMpKc3u8vI79Q?pwd=8888",
+        "url": "https://pan.baidu.com/s/1vEiAf1VDs4gBHIfmz-xBRw?pwd=8888",
         "valid": true,
         "reachable": true,
         "status_code": 200,
-        "final_url": "https://pan.baidu.com/share/init?surl=xLe5I6nsasMpKc3u8vI79Q&pwd=8888",
+        "final_url": "https://pan.baidu.com/share/init?surl=vEiAf1VDs4gBHIfmz-xBRw&pwd=8888",
         "reason": null
       }
     },
@@ -2094,14 +2133,14 @@
       "error": "分类列表为空",
       "traceback": null,
       "timings_ms": {
-        "module_load": 10.78,
-        "init": 95.708,
-        "home": 98.8,
+        "module_load": 8.605,
+        "init": 113.85,
+        "home": 399.974,
         "category": 0.0,
         "detail": 0.0,
         "player": 0.0,
         "url_check": 0.0,
-        "total": 205.605
+        "total": 522.725
       },
       "counts": {
         "classes": 0,
@@ -2128,39 +2167,39 @@
     {
       "spider": "河马短剧",
       "file": "河马短剧.txt",
-      "success": true,
-      "failed_stage": null,
-      "error": null,
+      "success": false,
+      "failed_stage": "home",
+      "error": "分类列表为空",
       "traceback": null,
       "timings_ms": {
-        "module_load": 4.625,
-        "init": 0.001,
-        "home": 410.782,
-        "category": 399.117,
-        "detail": 265.087,
-        "player": 179.248,
-        "url_check": 41.278,
-        "total": 1301.689
+        "module_load": 4.113,
+        "init": 0.0,
+        "home": 496.941,
+        "category": 0.0,
+        "detail": 0.0,
+        "player": 0.0,
+        "url_check": 0.0,
+        "total": 501.335
       },
       "counts": {
-        "classes": 7,
-        "category_videos": 18,
-        "detail_videos": 1,
-        "episodes": 1
+        "classes": 0,
+        "category_videos": 0,
+        "detail_videos": 0,
+        "episodes": 0
       },
       "samples": {
-        "tid": "65",
-        "vod_id": "41000250937",
-        "flag": "河马剧场",
-        "play_id": "41000250937@614629026"
+        "tid": null,
+        "vod_id": null,
+        "flag": null,
+        "play_id": null
       },
       "player": {
-        "parse": 0,
-        "url": "https://txonlmfvideo.cbread.cn/62/7x3/73x9/739x0/73905200014/614629026_1/614629026.720p.narrowv3.mp4?t=6a50ecd0&sign=24a25c47c39522e764fc2da0f1778ca9",
-        "valid": true,
-        "reachable": true,
-        "status_code": 200,
-        "final_url": "https://txonlmfvideo.cbread.cn/62/7x3/73x9/739x0/73905200014/614629026_1/614629026.720p.narrowv3.mp4?t=6a50ecd0&sign=24a25c47c39522e764fc2da0f1778ca9",
+        "parse": null,
+        "url": "",
+        "valid": false,
+        "reachable": null,
+        "status_code": null,
+        "final_url": "",
         "reason": null
       }
     },
@@ -2172,34 +2211,34 @@
       "error": null,
       "traceback": null,
       "timings_ms": {
-        "module_load": 12.426,
-        "init": 230.188,
-        "home": 565.39,
-        "category": 335.433,
-        "detail": 250.574,
-        "player": 1920.103,
-        "url_check": 140.705,
-        "total": 3455.441
+        "module_load": 8.309,
+        "init": 782.507,
+        "home": 601.621,
+        "category": 247.115,
+        "detail": 339.865,
+        "player": 1507.219,
+        "url_check": 1919.437,
+        "total": 5407.198
       },
       "counts": {
         "classes": 7,
         "category_videos": 20,
         "detail_videos": 1,
-        "episodes": 2
+        "episodes": 1
       },
       "samples": {
         "tid": "1",
-        "vod_id": "126287",
-        "flag": "BBA",
-        "play_id": "knmb-333466336566326336646337343835615496cb09a0f61620dbccea85ed558772c0633b35bca975aeee02c21e3d6481cac03560b7a8ab2874cb2eba3f4887ad4a8094395ebda75a544c4eee62776a7a0aeaffcad0dd8478235dc88726a71dbe72ce5f3292c711e368f5f05e0cbc8db8161617554a2990c0de822409527238e56d20c009c5f1ea042cba9986355596d8fba1de9f65992d78093fd48e8b7f3eae391c2250f9c14946cbafd17b6574f382db306c2ee69e51aca3ffdd0d732ee5ed6fa7c6956e86f25a77c49c437bf57be23b@@@BBA"
+        "vod_id": "146183",
+        "flag": "GZYS",
+        "play_id": "GZYS-c2e4048c4a1c4d023ed8bdd3502fc0e17ef29fb64f57c6ef87d3d8bc209e1cadf9901452fd1111e460f8a4f60f1ba8d2f7d77383682f4fd9de548c99b1f10b40da8ac7ed84fe87f52c73befd8dd97a12@@@GZYS"
       },
       "player": {
         "parse": 0,
-        "url": "https://lf26-imcloud-file-sign.bytetos.com/tos-cn-o-0000c2428/osVLdPePCQy4BbAAA92iBXBBhAJiE16k14FDAB?a=1517&x-expires=1783608989&ch=0&cr=5&x-tos-expires=1786089343&dr=10&er=0&lr=test&x-tos-signature=P4chdn0A30hXeHj0zlmUSTSYHwVkNTHxpC9pqmdi&cd=2%7C8%7C0%7C6&br=1658&x-tos-authkey=1fe17c963e562369a0ac2a9859e44698&bt=1583&cs=7&ds=7&ft=7GzeKN7SCwWr0MPUj6fo&mime_type=video_mp4&x-signature=Pxs3ZAu5VBZXh62VNmlx9WYZ4E0%3D&qs=13&rc=hXQqBe5CrFdOYAlAfN9e8h5eyr315yWx640vbmBhBkL1UmGIZV%3D%3D&btag=a0000e169030000&dy_q=1778057296&l=202605216569e308c13986273487dee3f&filename=BBA.mp4",
+        "url": "https://vd.wmvbo.com/075613383d1d4feeb0e2799c5ac6cb74/20260711010249/6500585cd9682dec7f90e5/decry/vd/20260630/MjQ5ZDlhY2I3M/182420/1080_1920/aac/h264/hls/decrypt/index.m3u8",
         "valid": true,
         "reachable": true,
         "status_code": 200,
-        "final_url": "https://lf26-imcloud-file-sign.bytetos.com/tos-cn-o-0000c2428/osVLdPePCQy4BbAAA92iBXBBhAJiE16k14FDAB?a=1517&x-expires=1783608989&ch=0&cr=5&x-tos-expires=1786089343&dr=10&er=0&lr=test&x-tos-signature=P4chdn0A30hXeHj0zlmUSTSYHwVkNTHxpC9pqmdi&cd=2%7C8%7C0%7C6&br=1658&x-tos-authkey=1fe17c963e562369a0ac2a9859e44698&bt=1583&cs=7&ds=7&ft=7GzeKN7SCwWr0MPUj6fo&mime_type=video_mp4&x-signature=Pxs3ZAu5VBZXh62VNmlx9WYZ4E0%3D&qs=13&rc=hXQqBe5CrFdOYAlAfN9e8h5eyr315yWx640vbmBhBkL1UmGIZV%3D%3D&btag=a0000e169030000&dy_q=1778057296&l=202605216569e308c13986273487dee3f&filename=BBA.mp4",
+        "final_url": "https://app.wanglaoshi.xn--fiqs8s/vod/index.m3u8",
         "reason": null
       }
     },
@@ -2211,14 +2250,14 @@
       "error": null,
       "traceback": null,
       "timings_ms": {
-        "module_load": 10.846,
+        "module_load": 4.705,
         "init": 0.001,
         "home": 0.001,
-        "category": 457.563,
-        "detail": 571.772,
-        "player": 0.005,
-        "url_check": 1377.919,
-        "total": 2418.995
+        "category": 508.662,
+        "detail": 467.143,
+        "player": 0.012,
+        "url_check": 1123.546,
+        "total": 2104.761
       },
       "counts": {
         "classes": 5,
@@ -2250,14 +2289,14 @@
       "error": null,
       "traceback": null,
       "timings_ms": {
-        "module_load": 4.532,
-        "init": 0.003,
-        "home": 87.978,
-        "category": 110.387,
-        "detail": 136.315,
-        "player": 276.54,
-        "url_check": 94.923,
-        "total": 712.195
+        "module_load": 4.25,
+        "init": 0.002,
+        "home": 659.525,
+        "category": 644.295,
+        "detail": 448.397,
+        "player": 397.976,
+        "url_check": 74.128,
+        "total": 2229.296
       },
       "counts": {
         "classes": 10,
@@ -2273,11 +2312,11 @@
       },
       "player": {
         "parse": 0,
-        "url": "http://43.248.96.62:9090/nby/m3u8/getM3u8?name=jx.91by.top&time=1783605107169&url=NBY-c6d046002ed1d767bee10e93ee7f1ff8.m3u8",
+        "url": "http://210.16.164.53:9090/nby/m3u8/getM3u8?name=jx.91by.top&time=1783688568963&url=NBY-c6d046002ed1d767bee10e93ee7f1ff8.m3u8",
         "valid": true,
         "reachable": true,
         "status_code": 200,
-        "final_url": "http://43.248.96.62:9090/nby/m3u8/getM3u8?name=jx.91by.top&time=1783605107169&url=NBY-c6d046002ed1d767bee10e93ee7f1ff8.m3u8",
+        "final_url": "http://210.16.164.53:9090/nby/m3u8/getM3u8?name=jx.91by.top&time=1783688568963&url=NBY-c6d046002ed1d767bee10e93ee7f1ff8.m3u8",
         "reason": null
       }
     },
@@ -2289,14 +2328,14 @@
       "error": "分类缺少 type_id",
       "traceback": null,
       "timings_ms": {
-        "module_load": 8.536,
+        "module_load": 4.42,
         "init": 0.001,
         "home": 0.001,
         "category": 0.0,
         "detail": 0.0,
         "player": 0.0,
         "url_check": 0.0,
-        "total": 8.795
+        "total": 4.519
       },
       "counts": {
         "classes": 4,
@@ -2328,18 +2367,18 @@
       "error": null,
       "traceback": null,
       "timings_ms": {
-        "module_load": 14.327,
-        "init": 0.039,
-        "home": 3401.658,
-        "category": 824.263,
-        "detail": 127.58,
-        "player": 0.002,
-        "url_check": 146.336,
-        "total": 4515.157
+        "module_load": 12.529,
+        "init": 0.025,
+        "home": 4284.134,
+        "category": 397.247,
+        "detail": 699.124,
+        "player": 0.001,
+        "url_check": 165.258,
+        "total": 5559.672
       },
       "counts": {
         "classes": 11,
-        "category_videos": 48,
+        "category_videos": 60,
         "detail_videos": 1,
         "episodes": 1
       },
@@ -2367,14 +2406,14 @@
       "error": null,
       "traceback": null,
       "timings_ms": {
-        "module_load": 9.898,
-        "init": 0.1,
-        "home": 0.002,
-        "category": 1453.213,
+        "module_load": 11.101,
+        "init": 0.097,
+        "home": 0.001,
+        "category": 1480.051,
         "detail": 0.001,
         "player": 0.001,
-        "url_check": 214.767,
-        "total": 1679.564
+        "url_check": 162.428,
+        "total": 1654.257
       },
       "counts": {
         "classes": 7,
@@ -2406,14 +2445,14 @@
       "error": null,
       "traceback": null,
       "timings_ms": {
-        "module_load": 6.934,
+        "module_load": 4.863,
         "init": 0.001,
-        "home": 0.002,
-        "category": 485.542,
-        "detail": 421.971,
-        "player": 477.122,
-        "url_check": 281.395,
-        "total": 1673.883
+        "home": 0.0,
+        "category": 412.51,
+        "detail": 353.286,
+        "player": 340.573,
+        "url_check": 254.595,
+        "total": 1366.519
       },
       "counts": {
         "classes": 6,
@@ -2423,17 +2462,17 @@
       },
       "samples": {
         "tid": "index",
-        "vod_id": "147155",
+        "vod_id": "147148",
         "flag": "独播库",
-        "play_id": "147155-1-1"
+        "play_id": "147148-1-1"
       },
       "player": {
         "parse": 0,
-        "url": "https://vid.dbokutv.com/20260705/ppotb62-S71lT2yliZApDBSvkYzBsrmD3fpCJ4nBsvsRsGlQ79nBMfZSNGjC34jC34rHZ51HJ8uBcrmD0/chunklist.m3u8",
+        "url": "https://vid.dbokutv.com/20260705/ppotb62-S71lT2yliZApDBSvkYzBsrmD3fpCJ4nBtfsRsGlR7XgBMDoPdWjC34jC30sHZCuDZX5BcrmD0/chunklist.m3u8",
         "valid": true,
         "reachable": true,
         "status_code": 200,
-        "final_url": "https://vid.dbokutv.com/20260705/ppotb62-S71lT2yliZApDBSvkYzBsrmD3fpCJ4nBsvsRsGlQ79nBMfZSNGjC34jC34rHZ51HJ8uBcrmD0/chunklist.m3u8",
+        "final_url": "https://vid.dbokutv.com/20260705/ppotb62-S71lT2yliZApDBSvkYzBsrmD3fpCJ4nBtfsRsGlR7XgBMDoPdWjC34jC30sHZCuDZX5BcrmD0/chunklist.m3u8",
         "reason": null
       }
     },
@@ -2445,14 +2484,14 @@
       "error": null,
       "traceback": null,
       "timings_ms": {
-        "module_load": 9.953,
-        "init": 364.138,
-        "home": 289.633,
-        "category": 163.952,
-        "detail": 253.868,
-        "player": 717.615,
-        "url_check": 645.535,
-        "total": 4387.824
+        "module_load": 8.766,
+        "init": 201.266,
+        "home": 290.751,
+        "category": 204.323,
+        "detail": 150.248,
+        "player": 151.261,
+        "url_check": 954.059,
+        "total": 3327.105
       },
       "counts": {
         "classes": 5,
@@ -2461,18 +2500,57 @@
         "episodes": 2
       },
       "samples": {
-        "tid": "2",
-        "vod_id": "60024",
-        "flag": "火猫极速R",
-        "play_id": "https://m.yichengwlkj.com/drama/56521?episodeNo=1@@@rrmj"
+        "tid": "1",
+        "vod_id": "197017",
+        "flag": "火猫备用R",
+        "play_id": "https://svip.ryiplay18.com/20260710/7950_f6e5f8e2/index.m3u8@@@rym3u8"
       },
       "player": {
         "parse": 0,
-        "url": "https://png.ruyijx.com/m3u8/XWk0YTUNfqApxK.m3u8?3EdYlARMOTgu8rXhxI",
+        "url": "https://svip.ryiplay18.com/20260710/7950_f6e5f8e2/index.m3u8",
         "valid": true,
         "reachable": true,
         "status_code": 200,
-        "final_url": "https://png.ruyijx.com/m3u8/XWk0YTUNfqApxK.m3u8?3EdYlARMOTgu8rXhxI",
+        "final_url": "https://svip.ryiplay18.com/20260710/7950_f6e5f8e2/index.m3u8",
+        "reason": null
+      }
+    },
+    {
+      "spider": "王子4K",
+      "file": "王子4K.txt",
+      "success": true,
+      "failed_stage": null,
+      "error": null,
+      "traceback": null,
+      "timings_ms": {
+        "module_load": 6.364,
+        "init": 0.003,
+        "home": 446.58,
+        "category": 464.432,
+        "detail": 601.874,
+        "player": 0.011,
+        "url_check": 814.394,
+        "total": 2334.457
+      },
+      "counts": {
+        "classes": 5,
+        "category_videos": 30,
+        "detail_videos": 1,
+        "episodes": 2
+      },
+      "samples": {
+        "tid": "1",
+        "vod_id": "406354",
+        "flag": "TY线路",
+        "play_id": "TY线路@@direct@@,https://tyyszywvod2.com/videos/202607/09/6a4fb6c6111492f4c58ad365/0cb6d8/index.m3u8,token+,1,0"
+      },
+      "player": {
+        "parse": 0,
+        "url": "https://tyyszywvod2.com/videos/202607/09/6a4fb6c6111492f4c58ad365/0cb6d8/index.m3u8",
+        "valid": true,
+        "reachable": true,
+        "status_code": 200,
+        "final_url": "https://tyyszywvod2.com/videos/202607/09/6a4fb6c6111492f4c58ad365/0cb6d8/index.m3u8",
         "reason": null
       }
     },
@@ -2484,14 +2562,14 @@
       "error": null,
       "traceback": null,
       "timings_ms": {
-        "module_load": 13.222,
-        "init": 0.004,
-        "home": 0.003,
-        "category": 750.571,
-        "detail": 602.425,
-        "player": 0.004,
-        "url_check": 1904.071,
-        "total": 3271.419
+        "module_load": 7.804,
+        "init": 0.001,
+        "home": 0.001,
+        "category": 384.874,
+        "detail": 227.44,
+        "player": 0.006,
+        "url_check": 1245.871,
+        "total": 1866.812
       },
       "counts": {
         "classes": 8,
@@ -2501,17 +2579,17 @@
       },
       "samples": {
         "tid": "44",
-        "vod_id": "126708",
+        "vod_id": "128390",
         "flag": "百度#玩偶哥哥",
-        "play_id": "https://pan.baidu.com/s/1Ka3-xEL-o85THQ3dmsHVQA?pwd=wogg"
+        "play_id": "https://pan.baidu.com/s/11GW-UpbPh9ptF1o_ZGlTbQ?pwd=2x9f"
       },
       "player": {
         "parse": 0,
-        "url": "https://pan.baidu.com/s/1Ka3-xEL-o85THQ3dmsHVQA?pwd=wogg",
+        "url": "https://pan.baidu.com/s/11GW-UpbPh9ptF1o_ZGlTbQ?pwd=2x9f",
         "valid": true,
         "reachable": true,
         "status_code": 200,
-        "final_url": "https://pan.baidu.com/share/init?surl=Ka3-xEL-o85THQ3dmsHVQA&pwd=wogg",
+        "final_url": "https://pan.baidu.com/share/init?surl=1GW-UpbPh9ptF1o_ZGlTbQ&pwd=2x9f",
         "reason": null
       }
     },
@@ -2523,14 +2601,14 @@
       "error": null,
       "traceback": null,
       "timings_ms": {
-        "module_load": 44.085,
+        "module_load": 41.23,
         "init": 0.001,
-        "home": 4.18,
-        "category": 749.854,
-        "detail": 710.824,
+        "home": 3.051,
+        "category": 333.902,
+        "detail": 269.408,
         "player": 0.002,
-        "url_check": 1384.909,
-        "total": 2894.624
+        "url_check": 1450.953,
+        "total": 2099.448
       },
       "counts": {
         "classes": 11,
@@ -2540,17 +2618,17 @@
       },
       "samples": {
         "tid": "site_wanou",
-        "vod_id": "site:wanou:/voddetail/126708.html",
+        "vod_id": "site:wanou:/voddetail/128390.html",
         "flag": "百度#玩偶",
-        "play_id": "https://pan.baidu.com/s/1Ka3-xEL-o85THQ3dmsHVQA?pwd=wogg"
+        "play_id": "https://pan.baidu.com/s/11GW-UpbPh9ptF1o_ZGlTbQ?pwd=2x9f"
       },
       "player": {
         "parse": 0,
-        "url": "https://pan.baidu.com/s/1Ka3-xEL-o85THQ3dmsHVQA?pwd=wogg",
+        "url": "https://pan.baidu.com/s/11GW-UpbPh9ptF1o_ZGlTbQ?pwd=2x9f",
         "valid": true,
         "reachable": true,
         "status_code": 200,
-        "final_url": "https://pan.baidu.com/share/init?surl=Ka3-xEL-o85THQ3dmsHVQA&pwd=wogg",
+        "final_url": "https://pan.baidu.com/share/init?surl=1GW-UpbPh9ptF1o_ZGlTbQ&pwd=2x9f",
         "reason": null
       }
     },
@@ -2562,14 +2640,14 @@
       "error": null,
       "traceback": null,
       "timings_ms": {
-        "module_load": 5.131,
+        "module_load": 5.256,
         "init": 0.001,
-        "home": 0.019,
-        "category": 693.299,
-        "detail": 826.66,
-        "player": 509.878,
-        "url_check": 566.95,
-        "total": 2603.102
+        "home": 0.015,
+        "category": 400.632,
+        "detail": 830.798,
+        "player": 498.461,
+        "url_check": 1327.928,
+        "total": 3064.326
       },
       "counts": {
         "classes": 5,
@@ -2585,7 +2663,7 @@
       },
       "player": {
         "parse": 0,
-        "url": "https://vd.wmvbo.com/f9e931f982af2e6b55dcedb914dd99d7/20260710015149/6500581f32e7b110d666e9/decry/vd/20260311/MjYwZjE1YTRkO/172631/1998_1080/aac/h264/hls/decrypt/index.m3u8",
+        "url": "https://vd.wmvbo.com/ca1e28c223d262bea8a4d28cf229477f/20260711010250/6500581f32e7b110d666e9/decry/vd/20260311/MjYwZjE1YTRkO/172631/1998_1080/aac/h264/hls/decrypt/index.m3u8",
         "valid": true,
         "reachable": true,
         "status_code": 200,
@@ -2601,14 +2679,14 @@
       "error": null,
       "traceback": null,
       "timings_ms": {
-        "module_load": 5.632,
-        "init": 104.777,
-        "home": 0.013,
-        "category": 7438.657,
-        "detail": 1230.715,
-        "player": 2225.698,
-        "url_check": 172.723,
-        "total": 11178.987
+        "module_load": 8.431,
+        "init": 90.002,
+        "home": 0.012,
+        "category": 2320.209,
+        "detail": 1160.552,
+        "player": 2536.155,
+        "url_check": 99.397,
+        "total": 6215.488
       },
       "counts": {
         "classes": 67,
@@ -2624,11 +2702,11 @@
       },
       "player": {
         "parse": 0,
-        "url": "https://v3-dy-a-x.ixigua.com/0d54e52389dc47b518a2607c161a0d97/6a621ca7/video/tos/cn/tos-cn-v-6fcc8e/ogOeitDBIFDaELBHwQEDKZrEAwWyf5pdqorEgL/?a=6920&ch=0&cr=0&dr=0&er=0&net=5&&br=830&bt=830&cs=0&ds=3&eid=38656&mime_type=video_mp4&qs=0&rc=O2U3MzMzO2k2ZzNkZGk4ZkBpM2Vtb3I5cjNwOzMzNGhoM0BiLjQvMmMtXi0xLS9gYF5eYSNscC8wMmRjYWJhLS1kXzBzcw%3D%3D&dy_q=1783605118&l=20260709215158FEF11AF50A2BCB2E920A&caller=toutiao.videoarch.video_playcenguigui_api",
+        "url": "https://v3-dy-a-x.ixigua.com/99e7acb746169946cf052e960a2f5c53/6a6362a8/video/tos/cn/tos-cn-v-6fcc8e/ogOeitDBIFDaELBHwQEDKZrEAwWyf5pdqorEgL/?a=6920&ch=0&cr=0&dr=0&er=0&net=5&&br=830&bt=830&cs=0&ds=3&eid=38656&mime_type=video_mp4&qs=0&rc=O2U3MzMzO2k2ZzNkZGk4ZkBpM2Vtb3I5cjNwOzMzNGhoM0BiLjQvMmMtXi0xLS9gYF5eYSNscC8wMmRjYWJhLS1kXzBzcw%3D%3D&dy_q=1783688575&l=202607102102554901AF7B41F2101992BA&caller=toutiao.videoarch.video_playcenguigui_api",
         "valid": true,
         "reachable": true,
         "status_code": 200,
-        "final_url": "https://v3-dy-a-x.ixigua.com/0d54e52389dc47b518a2607c161a0d97/6a621ca7/video/tos/cn/tos-cn-v-6fcc8e/ogOeitDBIFDaELBHwQEDKZrEAwWyf5pdqorEgL/?a=6920&ch=0&cr=0&dr=0&er=0&net=5&&br=830&bt=830&cs=0&ds=3&eid=38656&mime_type=video_mp4&qs=0&rc=O2U3MzMzO2k2ZzNkZGk4ZkBpM2Vtb3I5cjNwOzMzNGhoM0BiLjQvMmMtXi0xLS9gYF5eYSNscC8wMmRjYWJhLS1kXzBzcw%3D%3D&dy_q=1783605118&l=20260709215158FEF11AF50A2BCB2E920A&caller=toutiao.videoarch.video_playcenguigui_api",
+        "final_url": "https://v3-dy-a-x.ixigua.com/99e7acb746169946cf052e960a2f5c53/6a6362a8/video/tos/cn/tos-cn-v-6fcc8e/ogOeitDBIFDaELBHwQEDKZrEAwWyf5pdqorEgL/?a=6920&ch=0&cr=0&dr=0&er=0&net=5&&br=830&bt=830&cs=0&ds=3&eid=38656&mime_type=video_mp4&qs=0&rc=O2U3MzMzO2k2ZzNkZGk4ZkBpM2Vtb3I5cjNwOzMzNGhoM0BiLjQvMmMtXi0xLS9gYF5eYSNscC8wMmRjYWJhLS1kXzBzcw%3D%3D&dy_q=1783688575&l=202607102102554901AF7B41F2101992BA&caller=toutiao.videoarch.video_playcenguigui_api",
         "reason": null
       }
     },
@@ -2640,14 +2718,14 @@
       "error": null,
       "traceback": null,
       "timings_ms": {
-        "module_load": 6.467,
-        "init": 183.786,
-        "home": 357.785,
-        "category": 152.699,
-        "detail": 138.608,
-        "player": 97.193,
-        "url_check": 56.904,
-        "total": 994.24
+        "module_load": 5.205,
+        "init": 751.761,
+        "home": 380.196,
+        "category": 148.182,
+        "detail": 154.196,
+        "player": 118.811,
+        "url_check": 101.24,
+        "total": 1660.133
       },
       "counts": {
         "classes": 9,
@@ -2657,17 +2735,17 @@
       },
       "samples": {
         "tid": "2",
-        "vod_id": "811652",
-        "flag": "KK蓝光4k-可下载",
-        "play_id": "eyJ2b2RQbGF5RnJvbSI6ICJrcyIsICJwbGF5VXJsIjogImtzcy1hZWQ0NjNmYTc2ZmZiODM0ZjFhYTMzODE0ZjIzMGY1MDQzMjZkNjI4MGVjNWMyODNlNzFjYWRhNWQ5MThmZWVlMWMyMmVkNzUwZDUyZmI0MDg1ZWUwYWUzMGFmZTczZWZmYTI5MDAwOTMyMjllOTBlZWZlY2U3ODc3MTFlZmU3ZTZhMThjOGMyYTVkZDExZTliZTA3NWQ1YjkyM2M3NTM2MDA3NjJmMGIxMzE4MzM1Yjg3MTE0ZTUyOTYxYWU3OTlkYmM1ZjA1MjYzY2U5YjU1ZTkwMzAwMjlmMTZlMjE0Yzk2YzVjMzM1NjM3ZjgzNjFhOTQyY2E3NDZlNGRkYzNlNTZjMWZlZWI4OTgwYWYxYWNlZGVhNDM2NDc1ZTg5MTFlNTBmNjgxZDE5ZjU1MjY2ZmIwNjQ4NjhkNjBiNzAyZDk5MDQwMzU2YTk5Yjc4YTQxNGFkNTQ1Njg5MWM2MjczIn0="
+        "vod_id": "837746",
+        "flag": "独家蓝光4K",
+        "play_id": "eyJ2b2RQbGF5RnJvbSI6ICJZS1oiLCAicGxheVVybCI6ICJkdWFuLTc4NzBjMTMzMzRlZGQ4ODkifQ=="
       },
       "player": {
         "parse": 0,
-        "url": "https://onvideo-safety.ssrcdn.com/ksc2/WZ9g3pTMNNu5Z8bgGCpwLetkWasFBqTRwJFgMUqVZqAKQIINNmIOA6Db35FixJZjSYbTEFg0YvxmFoW40As7-6adnPpqQZ1wrlD9KEKnkH-G_EsqCVFZhbDANXGf_b6PWo3DtiKZFKL1-mFWG1K8EQUU7rJZcs3LUNtPizqdmsMAH05jvmZH3F4vNWsBlZYk.m3u8?pkey=AAUCdvBD5LKSe0fCAs2rNYl6h8YJGpK_RmvhiOuTV1oxJus5vQ2r5jeBBW10gcSOv2cbQxJJegy-wL_hz1r-P8qCj3yYZ6xjl8oQ9APjI6-pfIhznDFbU0NfwghfrcxIdUk",
+        "url": "http://122.228.193.79:2221/jiemi?key=CjsBYgcyB2UEMFR9URADSwBHBUFUEQNFUUk=&sign=a020a91bc7113db2a8515df8b1c4a86c&t=1783688570&ts=1783100186&name=7dc6c10a585cb206efca39ea6178d522.m3u8",
         "valid": true,
         "reachable": true,
         "status_code": 200,
-        "final_url": "https://onvideo-safety.ssrcdn.com/ksc2/WZ9g3pTMNNu5Z8bgGCpwLetkWasFBqTRwJFgMUqVZqAKQIINNmIOA6Db35FixJZjSYbTEFg0YvxmFoW40As7-6adnPpqQZ1wrlD9KEKnkH-G_EsqCVFZhbDANXGf_b6PWo3DtiKZFKL1-mFWG1K8EQUU7rJZcs3LUNtPizqdmsMAH05jvmZH3F4vNWsBlZYk.m3u8?pkey=AAUCdvBD5LKSe0fCAs2rNYl6h8YJGpK_RmvhiOuTV1oxJus5vQ2r5jeBBW10gcSOv2cbQxJJegy-wL_hz1r-P8qCj3yYZ6xjl8oQ9APjI6-pfIhznDFbU0NfwghfrcxIdUk",
+        "final_url": "http://122.228.193.79:2221/jiemi?key=CjsBYgcyB2UEMFR9URADSwBHBUFUEQNFUUk=&sign=a020a91bc7113db2a8515df8b1c4a86c&t=1783688570&ts=1783100186&name=7dc6c10a585cb206efca39ea6178d522.m3u8",
         "reason": null
       }
     },
@@ -2679,14 +2757,14 @@
       "error": null,
       "traceback": null,
       "timings_ms": {
-        "module_load": 3.773,
+        "module_load": 3.519,
         "init": 0.001,
-        "home": 453.511,
-        "category": 284.978,
-        "detail": 565.225,
-        "player": 274.439,
-        "url_check": 86.764,
-        "total": 1669.107
+        "home": 1724.746,
+        "category": 307.204,
+        "detail": 600.082,
+        "player": 233.219,
+        "url_check": 98.671,
+        "total": 2967.975
       },
       "counts": {
         "classes": 29,
@@ -2702,11 +2780,11 @@
       },
       "player": {
         "parse": 0,
-        "url": "http://vd3.bdstatic.com/mda-rgu31fx13xnschwc/1080p/mv_cae264_backtrack_1080p_normal/1753858859061604699/mda-rgu31fx13xnschwc.mp4?v_from_s=haokan-ui-video-hnb",
+        "url": "http://vd3.bdstatic.com/mda-rgu31fx13xnschwc/1080p/mv_cae264_backtrack_1080p_normal/1753858859061604699/mda-rgu31fx13xnschwc.mp4?v_from_s=haokan-ui-video-hna",
         "valid": true,
         "reachable": true,
         "status_code": 200,
-        "final_url": "http://vd3.bdstatic.com/mda-rgu31fx13xnschwc/1080p/mv_cae264_backtrack_1080p_normal/1753858859061604699/mda-rgu31fx13xnschwc.mp4?v_from_s=haokan-ui-video-hnb",
+        "final_url": "http://vd3.bdstatic.com/mda-rgu31fx13xnschwc/1080p/mv_cae264_backtrack_1080p_normal/1753858859061604699/mda-rgu31fx13xnschwc.mp4?v_from_s=haokan-ui-video-hna",
         "reason": null
       }
     },
@@ -2715,17 +2793,17 @@
       "file": "盘Ta.txt",
       "success": false,
       "failed_stage": "unexpected",
-      "error": "HTTPSConnectionPool(host='www.91panta.cn', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)')))",
-      "traceback": "Traceback (most recent call last):\n  File \"/home/harold/workspace/atv-spiders/py/.venv/lib/python3.14/site-packages/urllib3/connectionpool.py\", line 464, in _make_request\n    self._validate_conn(conn)\n    ~~~~~~~~~~~~~~~~~~~^^^^^^\n  File \"/home/harold/workspace/atv-spiders/py/.venv/lib/python3.14/site-packages/urllib3/connectionpool.py\", line 1093, in _validate_conn\n    conn.connect()\n    ~~~~~~~~~~~~^^\n  File \"/home/harold/workspace/atv-spiders/py/.venv/lib/python3.14/site-packages/urllib3/connection.py\", line 796, in connect\n    sock_and_verified = _ssl_wrap_socket_and_match_hostname(\n        sock=sock,\n    ...<14 lines>...\n        assert_fingerprint=self.assert_fingerprint,\n    )\n  File \"/home/harold/workspace/atv-spiders/py/.venv/lib/python3.14/site-packages/urllib3/connection.py\", line 975, in _ssl_wrap_socket_and_match_hostname\n    ssl_sock = ssl_wrap_socket(\n        sock=sock,\n    ...<8 lines>...\n        tls_in_tls=tls_in_tls,\n    )\n  File \"/home/harold/workspace/atv-spiders/py/.venv/lib/python3.14/site-packages/urllib3/util/ssl_.py\", line 483, in ssl_wrap_socket\n    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)\nssl.SSLEOFError: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/home/harold/workspace/atv-spiders/py/.venv/lib/python3.14/site-packages/urllib3/connectionpool.py\", line 787, in urlopen\n    response = self._make_request(\n        conn,\n    ...<10 lines>...\n        **response_kw,\n    )\n  File \"/home/harold/workspace/atv-spiders/py/.venv/lib/python3.14/site-packages/urllib3/connectionpool.py\", line 488, in _make_request\n    raise new_e\nurllib3.exceptions.SSLError: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"/home/harold/workspace/atv-spiders/py/.venv/lib/python3.14/site-packages/requests/adapters.py\", line 645, in send\n    resp = conn.urlopen(\n        method=request.method,\n    ...<9 lines>...\n        chunked=chunked,\n    )\n  File \"/home/harold/workspace/atv-spiders/py/.venv/lib/python3.14/site-packages/urllib3/connectionpool.py\", line 841, in urlopen\n    retries = retries.increment(\n        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]\n    )\n  File \"/home/harold/workspace/atv-spiders/py/.venv/lib/python3.14/site-packages/urllib3/util/retry.py\", line 535, in increment\n    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nurllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='www.91panta.cn', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)')))\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/home/harold/workspace/atv-spiders/py/validate_spiders.py\", line 756, in validate_spider_file\n    home_result = _run_timed(result[\"timings_ms\"], \"home\", spider.homeContent, clock, False)\n  File \"/home/harold/workspace/atv-spiders/py/validate_spiders.py\", line 318, in _run_timed\n    return func(*args, **kwargs)\n  File \"/home/harold/workspace/tvbox-resources/py/盘Ta.txt\", line 230, in homeContent\n  File \"/home/harold/workspace/tvbox-resources/py/盘Ta.txt\", line 70, in _request_html\n  File \"/home/harold/workspace/atv-spiders/py/base/spider.py\", line 145, in fetch\n    rsp = requests.get(url, params=params, cookies=cookies, headers=headers, timeout=timeout, verify=verify,\n                       stream=stream, allow_redirects=allow_redirects)\nrequests.exceptions.SSLError: HTTPSConnectionPool(host='www.91panta.cn', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1081)')))\n",
+      "error": "('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+      "traceback": "Traceback (most recent call last):\n  File \"/home/harold/workspace/atv-spiders/py/.venv/lib/python3.14/site-packages/urllib3/connectionpool.py\", line 787, in urlopen\n    response = self._make_request(\n        conn,\n    ...<10 lines>...\n        **response_kw,\n    )\n  File \"/home/harold/workspace/atv-spiders/py/.venv/lib/python3.14/site-packages/urllib3/connectionpool.py\", line 488, in _make_request\n    raise new_e\n  File \"/home/harold/workspace/atv-spiders/py/.venv/lib/python3.14/site-packages/urllib3/connectionpool.py\", line 464, in _make_request\n    self._validate_conn(conn)\n    ~~~~~~~~~~~~~~~~~~~^^^^^^\n  File \"/home/harold/workspace/atv-spiders/py/.venv/lib/python3.14/site-packages/urllib3/connectionpool.py\", line 1093, in _validate_conn\n    conn.connect()\n    ~~~~~~~~~~~~^^\n  File \"/home/harold/workspace/atv-spiders/py/.venv/lib/python3.14/site-packages/urllib3/connection.py\", line 796, in connect\n    sock_and_verified = _ssl_wrap_socket_and_match_hostname(\n        sock=sock,\n    ...<14 lines>...\n        assert_fingerprint=self.assert_fingerprint,\n    )\nConnectionResetError: [Errno 104] Connection reset by peer\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/home/harold/workspace/atv-spiders/py/.venv/lib/python3.14/site-packages/requests/adapters.py\", line 645, in send\n    resp = conn.urlopen(\n        method=request.method,\n    ...<9 lines>...\n        chunked=chunked,\n    )\n  File \"/home/harold/workspace/atv-spiders/py/.venv/lib/python3.14/site-packages/urllib3/connectionpool.py\", line 841, in urlopen\n    retries = retries.increment(\n        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]\n    )\n  File \"/home/harold/workspace/atv-spiders/py/.venv/lib/python3.14/site-packages/urllib3/util/retry.py\", line 490, in increment\n    raise reraise(type(error), error, _stacktrace)\n          ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/harold/workspace/atv-spiders/py/.venv/lib/python3.14/site-packages/urllib3/util/util.py\", line 38, in reraise\n    raise value.with_traceback(tb)\n  File \"/home/harold/workspace/atv-spiders/py/.venv/lib/python3.14/site-packages/urllib3/connectionpool.py\", line 787, in urlopen\n    response = self._make_request(\n        conn,\n    ...<10 lines>...\n        **response_kw,\n    )\nurllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/home/harold/workspace/atv-spiders/py/validate_spiders.py\", line 756, in validate_spider_file\n    home_result = _run_timed(result[\"timings_ms\"], \"home\", spider.homeContent, clock, False)\n  File \"/home/harold/workspace/atv-spiders/py/validate_spiders.py\", line 318, in _run_timed\n    return func(*args, **kwargs)\n  File \"/home/harold/workspace/tvbox-resources/py/盘Ta.txt\", line 230, in homeContent\n  File \"/home/harold/workspace/tvbox-resources/py/盘Ta.txt\", line 70, in _request_html\n  File \"/home/harold/workspace/atv-spiders/py/base/spider.py\", line 145, in fetch\n    rsp = requests.get(url, params=params, cookies=cookies, headers=headers, timeout=timeout, verify=verify,\n                       stream=stream, allow_redirects=allow_redirects)\nrequests.exceptions.ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))\n",
       "timings_ms": {
-        "module_load": 4.322,
+        "module_load": 4.856,
         "init": 0.001,
-        "home": 4241.141,
+        "home": 3890.581,
         "category": 0.0,
         "detail": 0.0,
         "player": 0.0,
         "url_check": 0.0,
-        "total": 4248.149
+        "total": 3897.149
       },
       "counts": {
         "classes": 0,
@@ -2757,14 +2835,14 @@
       "error": null,
       "traceback": null,
       "timings_ms": {
-        "module_load": 6.491,
+        "module_load": 5.696,
         "init": 0.001,
-        "home": 0.001,
-        "category": 242.543,
-        "detail": 349.575,
-        "player": 241.766,
-        "url_check": 1257.493,
-        "total": 2098.678
+        "home": 0.0,
+        "category": 315.988,
+        "detail": 229.756,
+        "player": 265.323,
+        "url_check": 1309.1,
+        "total": 2126.614
       },
       "counts": {
         "classes": 4,
@@ -2791,39 +2869,39 @@
     {
       "spider": "盘链",
       "file": "盘链.txt",
-      "success": false,
-      "failed_stage": "detail",
-      "error": "详情缺少播放源或播放列表",
+      "success": true,
+      "failed_stage": null,
+      "error": null,
       "traceback": null,
       "timings_ms": {
-        "module_load": 13.027,
-        "init": 0.149,
+        "module_load": 9.375,
+        "init": 0.089,
         "home": 0.001,
-        "category": 792.004,
-        "detail": 353.677,
-        "player": 0.0,
-        "url_check": 0.0,
-        "total": 3069.414
+        "category": 1690.664,
+        "detail": 469.284,
+        "player": 1753.267,
+        "url_check": 781.985,
+        "total": 4705.64
       },
       "counts": {
         "classes": 5,
         "category_videos": 30,
         "detail_videos": 1,
-        "episodes": 0
+        "episodes": 2
       },
       "samples": {
-        "tid": "1",
-        "vod_id": "-76071",
-        "flag": null,
-        "play_id": null
+        "tid": "0",
+        "vod_id": "-75606",
+        "flag": "百度",
+        "play_id": "push://https://www.xn--vzy265d.cc/api/go.php?t=ulGWwReguoaKXazdFSJ2-bT3Jbd5YGEGBQPFUrta8dwpiAnoqtMtMx3qieR_Cpv0laX9Mt7qWo1AppleutfjBqqxtFRZHOlaeciz0rqdVCyXVrK73nTBUpLxXAmLtM0IAfaN44hrhrrwimJ5gFoTOIOXWPM_kV8Xl-SK1sHTuTzXGcucBhNlR84gABueViNvocjocw9-mdNmagSfQu-mQb5TaBUJdwPfmDERMWzSbfY"
       },
       "player": {
-        "parse": null,
-        "url": "",
-        "valid": false,
-        "reachable": null,
-        "status_code": null,
-        "final_url": "",
+        "parse": 0,
+        "url": "https://pan.baidu.com/share/init?surl=om6tM8AEOSVFMlSG7tVDvg&pwd=kick",
+        "valid": true,
+        "reachable": true,
+        "status_code": 200,
+        "final_url": "https://pan.baidu.com/share/init?surl=om6tM8AEOSVFMlSG7tVDvg&pwd=kick",
         "reason": null
       }
     },
@@ -2835,18 +2913,18 @@
       "error": null,
       "traceback": null,
       "timings_ms": {
-        "module_load": 22.587,
-        "init": 497.298,
-        "home": 0.247,
-        "category": 496.915,
-        "detail": 357.132,
-        "player": 0.004,
-        "url_check": 96.524,
-        "total": 1471.39
+        "module_load": 37.772,
+        "init": 2184.593,
+        "home": 0.12,
+        "category": 1046.333,
+        "detail": 1114.7,
+        "player": 0.002,
+        "url_check": 77.154,
+        "total": 4461.346
       },
       "counts": {
-        "classes": 12,
-        "category_videos": 72,
+        "classes": 13,
+        "category_videos": 71,
         "detail_videos": 1,
         "episodes": 1
       },
@@ -2874,14 +2952,14 @@
       "error": null,
       "traceback": null,
       "timings_ms": {
-        "module_load": 4.109,
-        "init": 0.0,
-        "home": 0.0,
-        "category": 516.452,
-        "detail": 202.603,
+        "module_load": 39.03,
+        "init": 0.001,
+        "home": 0.001,
+        "category": 505.38,
+        "detail": 192.402,
         "player": 0.006,
-        "url_check": 4171.42,
-        "total": 4895.102
+        "url_check": 1205.541,
+        "total": 1943.227
       },
       "counts": {
         "classes": 2,
@@ -2891,17 +2969,17 @@
       },
       "samples": {
         "tid": "1",
-        "vod_id": "https://sm3.cc/?id=62440",
+        "vod_id": "https://sm3.cc/?id=62641",
         "flag": "百度",
-        "play_id": "https://pan.baidu.com/s/1D14meA-nle8kjzJEF64bQQ?pwd=6666"
+        "play_id": "https://pan.baidu.com/s/1SzM9LHzpjaVbO6cfNkat8g?pwd=6666"
       },
       "player": {
         "parse": 0,
-        "url": "https://pan.baidu.com/s/1D14meA-nle8kjzJEF64bQQ?pwd=6666",
+        "url": "https://pan.baidu.com/s/1SzM9LHzpjaVbO6cfNkat8g?pwd=6666",
         "valid": true,
         "reachable": true,
         "status_code": 200,
-        "final_url": "https://pan.baidu.com/share/init?surl=D14meA-nle8kjzJEF64bQQ&pwd=6666",
+        "final_url": "https://pan.baidu.com/share/init?surl=SzM9LHzpjaVbO6cfNkat8g&pwd=6666",
         "reason": null
       }
     },
@@ -2913,14 +2991,14 @@
       "error": null,
       "traceback": null,
       "timings_ms": {
-        "module_load": 5.577,
-        "init": 0.002,
+        "module_load": 6.105,
+        "init": 0.003,
         "home": 0.006,
-        "category": 646.27,
-        "detail": 619.529,
-        "player": 0.004,
-        "url_check": 0.058,
-        "total": 1271.85
+        "category": 686.473,
+        "detail": 689.21,
+        "player": 0.003,
+        "url_check": 0.061,
+        "total": 1382.227
       },
       "counts": {
         "classes": 24,
@@ -2952,14 +3030,14 @@
       "error": "分类视频列表为空",
       "traceback": null,
       "timings_ms": {
-        "module_load": 9.007,
+        "module_load": 6.786,
         "init": 0.001,
-        "home": 207.842,
-        "category": 193.402,
+        "home": 213.028,
+        "category": 286.417,
         "detail": 0.0,
         "player": 0.0,
         "url_check": 0.0,
-        "total": 705.463
+        "total": 800.561
       },
       "counts": {
         "classes": 5,
@@ -2991,18 +3069,18 @@
       "error": "playerContent 未返回播放地址",
       "traceback": null,
       "timings_ms": {
-        "module_load": 9.85,
+        "module_load": 4.905,
         "init": 0.001,
-        "home": 435.983,
-        "category": 411.097,
-        "detail": 0.005,
-        "player": 372.059,
+        "home": 788.942,
+        "category": 468.84,
+        "detail": 0.008,
+        "player": 339.105,
         "url_check": 0.0,
-        "total": 1981.945
+        "total": 2361.392
       },
       "counts": {
         "classes": 62,
-        "category_videos": 99,
+        "category_videos": 100,
         "detail_videos": 1,
         "episodes": 1
       },
@@ -3030,14 +3108,14 @@
       "error": "分类视频列表为空",
       "traceback": null,
       "timings_ms": {
-        "module_load": 4.373,
+        "module_load": 5.286,
         "init": 0.001,
-        "home": 0.0,
-        "category": 1666.111,
+        "home": 0.001,
+        "category": 1396.62,
         "detail": 0.0,
         "player": 0.0,
         "url_check": 0.0,
-        "total": 3198.806
+        "total": 2913.554
       },
       "counts": {
         "classes": 6,
@@ -3069,14 +3147,14 @@
       "error": null,
       "traceback": null,
       "timings_ms": {
-        "module_load": 5.806,
+        "module_load": 5.878,
         "init": 0.001,
-        "home": 166.828,
-        "category": 251.92,
-        "detail": 691.151,
+        "home": 122.906,
+        "category": 294.46,
+        "detail": 1110.952,
         "player": 0.002,
-        "url_check": 255.181,
-        "total": 1371.466
+        "url_check": 208.608,
+        "total": 1743.659
       },
       "counts": {
         "classes": 7,
@@ -3108,14 +3186,14 @@
       "error": null,
       "traceback": null,
       "timings_ms": {
-        "module_load": 12.87,
+        "module_load": 8.116,
         "init": 0.001,
         "home": 0.001,
-        "category": 1180.948,
-        "detail": 271.559,
-        "player": 0.022,
-        "url_check": 1060.717,
-        "total": 2527.044
+        "category": 1137.286,
+        "detail": 408.73,
+        "player": 0.003,
+        "url_check": 1227.946,
+        "total": 2782.528
       },
       "counts": {
         "classes": 7,
@@ -3147,14 +3225,14 @@
       "error": null,
       "traceback": null,
       "timings_ms": {
-        "module_load": 5.816,
-        "init": 223.919,
-        "home": 341.465,
-        "category": 123.234,
-        "detail": 143.998,
-        "player": 95.988,
-        "url_check": 51.043,
-        "total": 986.199
+        "module_load": 6.319,
+        "init": 788.532,
+        "home": 326.22,
+        "category": 150.688,
+        "detail": 154.925,
+        "player": 144.878,
+        "url_check": 127.769,
+        "total": 1700.208
       },
       "counts": {
         "classes": 9,
@@ -3164,17 +3242,17 @@
       },
       "samples": {
         "tid": "2",
-        "vod_id": "811652",
-        "flag": "KK蓝光4k-可下载",
-        "play_id": "eyJ2b2RQbGF5RnJvbSI6ICJrcyIsICJwbGF5VXJsIjogImtzcy1hZWQ0NjNmYTc2ZmZiODM0ZjFhYTMzODE0ZjIzMGY1MDQzMjZkNjI4MGVjNWMyODNlNzFjYWRhNWQ5MThmZWVlMWMyMmVkNzUwZDUyZmI0MDg1ZWUwYWUzMGFmZTczZWZmYTI5MDAwOTMyMjllOTBlZWZlY2U3ODc3MTFlZmU3ZTZhMThjOGMyYTVkZDExZTliZTA3NWQ1YjkyM2M3NTM2MDA3NjJmMGIxMzE4MzM1Yjg3MTE0ZTUyOTYxYWU3OTlkYmM1ZjA1MjYzY2U5YjU1ZTkwMzAwMjlmMTZlMjE0Yzk2YzVjMzM1NjM3ZjgzNjFhOTQyY2E3NDZlNGRkYzNlNTZjMWZlZWI4OTgwYWYxYWNlZGVhNDM2NDc1ZTg5MTFlNTBmNjgxZDE5ZjU1MjY2ZmIwNjQ4NjhkNjBiNzAyZDk5MDQwMzU2YTk5Yjc4YTQxNGFkNTQ1Njg5MWM2MjczIn0="
+        "vod_id": "837746",
+        "flag": "独家蓝光4K",
+        "play_id": "eyJ2b2RQbGF5RnJvbSI6ICJZS1oiLCAicGxheVVybCI6ICJkdWFuLTc4NzBjMTMzMzRlZGQ4ODkifQ=="
       },
       "player": {
         "parse": 0,
-        "url": "https://onvideo-safety.ssrcdn.com/ksc2/WZ9g3pTMNNu5Z8bgGCpwLetkWasFBqTRwJFgMUqVZqAKQIINNmIOA6Db35FixJZjSYbTEFg0YvxmFoW40As7-6adnPpqQZ1wrlD9KEKnkH-G_EsqCVFZhbDANXGf_b6PWo3DtiKZFKL1-mFWG1K8EQUU7rJZcs3LUNtPizqdmsMAH05jvmZH3F4vNWsBlZYk.m3u8?pkey=AAUCdvBD5LKSe0fCAs2rNYl6h8YJGpK_RmvhiOuTV1oxJus5vQ2r5jeBBW10gcSOv2cbQxJJegy-wL_hz1r-P8qCj3yYZ6xjl8oQ9APjI6-pfIhznDFbU0NfwghfrcxIdUk",
+        "url": "http://122.228.193.79:2221/jiemi?key=AzIFZldiUzFVYVpzCktVHVMUURUDRgNFVEw=&sign=25f1239471854cad06c1858f78f641a1&t=1783688573&ts=1783100186&name=7dc6c10a585cb206efca39ea6178d522.m3u8",
         "valid": true,
         "reachable": true,
         "status_code": 200,
-        "final_url": "https://onvideo-safety.ssrcdn.com/ksc2/WZ9g3pTMNNu5Z8bgGCpwLetkWasFBqTRwJFgMUqVZqAKQIINNmIOA6Db35FixJZjSYbTEFg0YvxmFoW40As7-6adnPpqQZ1wrlD9KEKnkH-G_EsqCVFZhbDANXGf_b6PWo3DtiKZFKL1-mFWG1K8EQUU7rJZcs3LUNtPizqdmsMAH05jvmZH3F4vNWsBlZYk.m3u8?pkey=AAUCdvBD5LKSe0fCAs2rNYl6h8YJGpK_RmvhiOuTV1oxJus5vQ2r5jeBBW10gcSOv2cbQxJJegy-wL_hz1r-P8qCj3yYZ6xjl8oQ9APjI6-pfIhznDFbU0NfwghfrcxIdUk",
+        "final_url": "http://122.228.193.79:2221/jiemi?key=AzIFZldiUzFVYVpzCktVHVMUURUDRgNFVEw=&sign=25f1239471854cad06c1858f78f641a1&t=1783688573&ts=1783100186&name=7dc6c10a585cb206efca39ea6178d522.m3u8",
         "reason": null
       }
     },
@@ -3186,14 +3264,14 @@
       "error": "分类列表为空",
       "traceback": null,
       "timings_ms": {
-        "module_load": 7.736,
+        "module_load": 7.145,
         "init": 0.001,
-        "home": 230.093,
+        "home": 170.304,
         "category": 0.0,
         "detail": 0.0,
         "player": 0.0,
         "url_check": 0.0,
-        "total": 238.028
+        "total": 177.652
       },
       "counts": {
         "classes": 0,
@@ -3225,14 +3303,14 @@
       "error": null,
       "traceback": null,
       "timings_ms": {
-        "module_load": 5.856,
-        "init": 230.928,
-        "home": 343.738,
-        "category": 130.472,
-        "detail": 145.28,
-        "player": 101.875,
-        "url_check": 62.774,
-        "total": 1021.542
+        "module_load": 5.423,
+        "init": 752.371,
+        "home": 358.074,
+        "category": 103.399,
+        "detail": 163.635,
+        "player": 112.409,
+        "url_check": 109.268,
+        "total": 1605.09
       },
       "counts": {
         "classes": 9,
@@ -3242,17 +3320,17 @@
       },
       "samples": {
         "tid": "2",
-        "vod_id": "811652",
-        "flag": "KK蓝光4k-可下载",
-        "play_id": "eyJ2b2RQbGF5RnJvbSI6ICJrcyIsICJwbGF5VXJsIjogImtzcy1hZWQ0NjNmYTc2ZmZiODM0ZjFhYTMzODE0ZjIzMGY1MDQzMjZkNjI4MGVjNWMyODNlNzFjYWRhNWQ5MThmZWVlMWMyMmVkNzUwZDUyZmI0MDg1ZWUwYWUzMGFmZTczZWZmYTI5MDAwOTMyMjllOTBlZWZlY2U3ODc3MTFlZmU3ZTZhMThjOGMyYTVkZDExZTliZTA3NWQ1YjkyM2M3NTM2MDA3NjJmMGIxMzE4MzM1Yjg3MTE0ZTUyOTYxYWU3OTlkYmM1ZjA1MjYzY2U5YjU1ZTkwMzAwMjlmMTZlMjE0Yzk2YzVjMzM1NjM3ZjgzNjFhOTQyY2E3NDZlNGRkYzNlNTZjMWZlZWI4OTgwYWYxYWNlZGVhNDM2NDc1ZTg5MTFlNTBmNjgxZDE5ZjU1MjY2ZmIwNjQ4NjhkNjBiNzAyZDk5MDQwMzU2YTk5Yjc4YTQxNGFkNTQ1Njg5MWM2MjczIn0="
+        "vod_id": "837746",
+        "flag": "独家蓝光4K",
+        "play_id": "eyJ2b2RQbGF5RnJvbSI6ICJZS1oiLCAicGxheVVybCI6ICJkdWFuLTc4NzBjMTMzMzRlZGQ4ODkifQ=="
       },
       "player": {
         "parse": 0,
-        "url": "https://onvideo-safety.ssrcdn.com/ksc2/WZ9g3pTMNNu5Z8bgGCpwLetkWasFBqTRwJFgMUqVZqAKQIINNmIOA6Db35FixJZjSYbTEFg0YvxmFoW40As7-6adnPpqQZ1wrlD9KEKnkH-G_EsqCVFZhbDANXGf_b6PWo3DtiKZFKL1-mFWG1K8EQUU7rJZcs3LUNtPizqdmsMAH05jvmZH3F4vNWsBlZYk.m3u8?pkey=AAUCdvBD5LKSe0fCAs2rNYl6h8YJGpK_RmvhiOuTV1oxJus5vQ2r5jeBBW10gcSOv2cbQxJJegy-wL_hz1r-P8qCj3yYZ6xjl8oQ9APjI6-pfIhznDFbU0NfwghfrcxIdUk",
+        "url": "http://122.228.193.79:2221/jiemi?key=VmcGZQo/VjQOOgApBkcETANEVBAEQQRCBR0=&sign=25f1239471854cad06c1858f78f641a1&t=1783688573&ts=1783100186&name=7dc6c10a585cb206efca39ea6178d522.m3u8",
         "valid": true,
         "reachable": true,
         "status_code": 200,
-        "final_url": "https://onvideo-safety.ssrcdn.com/ksc2/WZ9g3pTMNNu5Z8bgGCpwLetkWasFBqTRwJFgMUqVZqAKQIINNmIOA6Db35FixJZjSYbTEFg0YvxmFoW40As7-6adnPpqQZ1wrlD9KEKnkH-G_EsqCVFZhbDANXGf_b6PWo3DtiKZFKL1-mFWG1K8EQUU7rJZcs3LUNtPizqdmsMAH05jvmZH3F4vNWsBlZYk.m3u8?pkey=AAUCdvBD5LKSe0fCAs2rNYl6h8YJGpK_RmvhiOuTV1oxJus5vQ2r5jeBBW10gcSOv2cbQxJJegy-wL_hz1r-P8qCj3yYZ6xjl8oQ9APjI6-pfIhznDFbU0NfwghfrcxIdUk",
+        "final_url": "http://122.228.193.79:2221/jiemi?key=VmcGZQo/VjQOOgApBkcETANEVBAEQQRCBR0=&sign=25f1239471854cad06c1858f78f641a1&t=1783688573&ts=1783100186&name=7dc6c10a585cb206efca39ea6178d522.m3u8",
         "reason": null
       }
     },
@@ -3264,34 +3342,34 @@
       "error": null,
       "traceback": null,
       "timings_ms": {
-        "module_load": 8.87,
+        "module_load": 8.115,
         "init": 0.001,
         "home": 0.001,
-        "category": 3546.573,
-        "detail": 4936.668,
-        "player": 0.03,
-        "url_check": 142.591,
-        "total": 16346.618
+        "category": 3561.609,
+        "detail": 3664.253,
+        "player": 0.017,
+        "url_check": 149.894,
+        "total": 7384.55
       },
       "counts": {
         "classes": 7,
         "category_videos": 72,
         "detail_videos": 1,
-        "episodes": 2
+        "episodes": 1
       },
       "samples": {
         "tid": "1",
-        "vod_id": "461464",
+        "vod_id": "457605",
         "flag": "夸克#虎斑",
-        "play_id": "https://pan.quark.cn/s/f875fb6a385b"
+        "play_id": "https://pan.quark.cn/s/3b66943abc31"
       },
       "player": {
         "parse": 0,
-        "url": "https://pan.quark.cn/s/f875fb6a385b",
+        "url": "https://pan.quark.cn/s/3b66943abc31",
         "valid": true,
         "reachable": true,
         "status_code": 200,
-        "final_url": "https://pan.quark.cn/s/f875fb6a385b",
+        "final_url": "https://pan.quark.cn/s/3b66943abc31",
         "reason": null
       }
     },
@@ -3303,14 +3381,14 @@
       "error": null,
       "traceback": null,
       "timings_ms": {
-        "module_load": 9.906,
+        "module_load": 7.219,
         "init": 0.001,
         "home": 0.001,
-        "category": 853.105,
-        "detail": 181.579,
-        "player": 0.004,
-        "url_check": 448.231,
-        "total": 1493.699
+        "category": 592.349,
+        "detail": 724.26,
+        "player": 0.003,
+        "url_check": 472.43,
+        "total": 1796.771
       },
       "counts": {
         "classes": 7,
@@ -3342,14 +3420,14 @@
       "error": null,
       "traceback": null,
       "timings_ms": {
-        "module_load": 6.126,
+        "module_load": 8.059,
         "init": 0.001,
         "home": 0.001,
-        "category": 1189.694,
-        "detail": 449.916,
-        "player": 600.652,
-        "url_check": 470.996,
-        "total": 2717.986
+        "category": 1470.239,
+        "detail": 755.438,
+        "player": 869.674,
+        "url_check": 476.437,
+        "total": 3580.458
       },
       "counts": {
         "classes": 4,
@@ -3381,14 +3459,14 @@
       "error": "HTTPSConnectionPool(host='cms140.yhg.one', port=443): Read timed out. (read timeout=10)",
       "traceback": "Traceback (most recent call last):\n  File \"/home/harold/workspace/atv-spiders/py/.venv/lib/python3.14/site-packages/urllib3/connectionpool.py\", line 464, in _make_request\n    self._validate_conn(conn)\n    ~~~~~~~~~~~~~~~~~~~^^^^^^\n  File \"/home/harold/workspace/atv-spiders/py/.venv/lib/python3.14/site-packages/urllib3/connectionpool.py\", line 1093, in _validate_conn\n    conn.connect()\n    ~~~~~~~~~~~~^^\n  File \"/home/harold/workspace/atv-spiders/py/.venv/lib/python3.14/site-packages/urllib3/connection.py\", line 796, in connect\n    sock_and_verified = _ssl_wrap_socket_and_match_hostname(\n        sock=sock,\n    ...<14 lines>...\n        assert_fingerprint=self.assert_fingerprint,\n    )\n  File \"/home/harold/workspace/atv-spiders/py/.venv/lib/python3.14/site-packages/urllib3/connection.py\", line 975, in _ssl_wrap_socket_and_match_hostname\n    ssl_sock = ssl_wrap_socket(\n        sock=sock,\n    ...<8 lines>...\n        tls_in_tls=tls_in_tls,\n    )\n  File \"/home/harold/workspace/atv-spiders/py/.venv/lib/python3.14/site-packages/urllib3/util/ssl_.py\", line 483, in ssl_wrap_socket\n    ssl_sock = _ssl_wrap_socket_impl(sock, context, tls_in_tls, server_hostname)\nTimeoutError: _ssl.c:1063: The handshake operation timed out\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"/home/harold/workspace/atv-spiders/py/.venv/lib/python3.14/site-packages/requests/adapters.py\", line 645, in send\n    resp = conn.urlopen(\n        method=request.method,\n    ...<9 lines>...\n        chunked=chunked,\n    )\n  File \"/home/harold/workspace/atv-spiders/py/.venv/lib/python3.14/site-packages/urllib3/connectionpool.py\", line 841, in urlopen\n    retries = retries.increment(\n        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]\n    )\n  File \"/home/harold/workspace/atv-spiders/py/.venv/lib/python3.14/site-packages/urllib3/util/retry.py\", line 490, in increment\n    raise reraise(type(error), error, _stacktrace)\n          ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/harold/workspace/atv-spiders/py/.venv/lib/python3.14/site-packages/urllib3/util/util.py\", line 39, in reraise\n    raise value\n  File \"/home/harold/workspace/atv-spiders/py/.venv/lib/python3.14/site-packages/urllib3/connectionpool.py\", line 787, in urlopen\n    response = self._make_request(\n        conn,\n    ...<10 lines>...\n        **response_kw,\n    )\nurllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='cms140.yhg.one', port=443): Read timed out. (read timeout=10)\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/home/harold/workspace/atv-spiders/py/validate_spiders.py\", line 756, in validate_spider_file\n    home_result = _run_timed(result[\"timings_ms\"], \"home\", spider.homeContent, clock, False)\n  File \"/home/harold/workspace/atv-spiders/py/validate_spiders.py\", line 318, in _run_timed\n    return func(*args, **kwargs)\n  File \"/home/harold/workspace/tvbox-resources/py/视界.txt\", line 72, in homeContent\n  File \"/home/harold/workspace/tvbox-resources/py/视界.txt\", line 400, in _ensure_init_payload\n  File \"/home/harold/workspace/tvbox-resources/py/视界.txt\", line 199, in _post_api\nrequests.exceptions.ReadTimeout: HTTPSConnectionPool(host='cms140.yhg.one', port=443): Read timed out. (read timeout=10)\n",
       "timings_ms": {
-        "module_load": 7.25,
+        "module_load": 9.67,
         "init": 0.001,
-        "home": 10013.415,
+        "home": 10016.172,
         "category": 0.0,
         "detail": 0.0,
         "player": 0.0,
         "url_check": 0.0,
-        "total": 10022.444
+        "total": 10028.608
       },
       "counts": {
         "classes": 0,
@@ -3420,14 +3498,14 @@
       "error": null,
       "traceback": null,
       "timings_ms": {
-        "module_load": 8.757,
-        "init": 0.028,
-        "home": 377.392,
-        "category": 820.288,
-        "detail": 374.249,
+        "module_load": 29.216,
+        "init": 0.026,
+        "home": 920.087,
+        "category": 760.998,
+        "detail": 311.181,
         "player": 0.002,
-        "url_check": 866.423,
-        "total": 2448.215
+        "url_check": 1848.712,
+        "total": 3870.833
       },
       "counts": {
         "classes": 4,
@@ -3459,14 +3537,14 @@
       "error": "分类视频列表为空",
       "traceback": null,
       "timings_ms": {
-        "module_load": 5.979,
+        "module_load": 17.696,
         "init": 0.001,
-        "home": 0.0,
-        "category": 302.733,
-        "detail": 0.0,
+        "home": 0.001,
+        "category": 270.386,
+        "detail": 1080.589,
         "player": 0.0,
         "url_check": 0.0,
-        "total": 643.896
+        "total": 4107.649
       },
       "counts": {
         "classes": 6,
@@ -3498,14 +3576,14 @@
       "error": null,
       "traceback": null,
       "timings_ms": {
-        "module_load": 5.506,
+        "module_load": 5.16,
         "init": 0.001,
-        "home": 373.503,
-        "category": 91.744,
-        "detail": 3244.946,
-        "player": 147.586,
-        "url_check": 62.451,
-        "total": 3926.959
+        "home": 406.54,
+        "category": 151.125,
+        "detail": 3614.474,
+        "player": 150.271,
+        "url_check": 44.999,
+        "total": 4373.676
       },
       "counts": {
         "classes": 4,
@@ -3521,11 +3599,11 @@
       },
       "player": {
         "parse": 0,
-        "url": "http://car-lv.kuwo.cn/9cc6ad9b6a8658dc7dcc5cd975804a11/6a4fa77b/resource/30106/trackmedia/long/M500002ZiI9a1sctnS.mp3?bitrate$128&format$mp3&source$kwplayerhd_ar_4.3.0.8_tianbao_T1A_qirui.apk&type$convert_url_with_sign&user$&loginUid$",
+        "url": "http://car-lv.kuwo.cn/5248ae595c1573465dccef0c58c2586e/6a50ed82/resource/30106/trackmedia/long/M500002ZiI9a1sctnS.mp3?bitrate$128&format$mp3&source$kwplayerhd_ar_4.3.0.8_tianbao_T1A_qirui.apk&type$convert_url_with_sign&user$&loginUid$",
         "valid": true,
         "reachable": true,
         "status_code": 200,
-        "final_url": "http://car-lv.kuwo.cn/9cc6ad9b6a8658dc7dcc5cd975804a11/6a4fa77b/resource/30106/trackmedia/long/M500002ZiI9a1sctnS.mp3?bitrate$128&format$mp3&source$kwplayerhd_ar_4.3.0.8_tianbao_T1A_qirui.apk&type$convert_url_with_sign&user$&loginUid$",
+        "final_url": "http://car-lv.kuwo.cn/5248ae595c1573465dccef0c58c2586e/6a50ed82/resource/30106/trackmedia/long/M500002ZiI9a1sctnS.mp3?bitrate$128&format$mp3&source$kwplayerhd_ar_4.3.0.8_tianbao_T1A_qirui.apk&type$convert_url_with_sign&user$&loginUid$",
         "reason": null
       }
     },
@@ -3537,14 +3615,14 @@
       "error": null,
       "traceback": null,
       "timings_ms": {
-        "module_load": 8.196,
-        "init": 444.216,
-        "home": 288.438,
-        "category": 259.579,
-        "detail": 359.609,
-        "player": 340.616,
-        "url_check": 39.865,
-        "total": 1741.559
+        "module_load": 7.272,
+        "init": 448.355,
+        "home": 263.686,
+        "category": 287.421,
+        "detail": 324.099,
+        "player": 419.363,
+        "url_check": 115.714,
+        "total": 1867.219
       },
       "counts": {
         "classes": 12,
@@ -3554,17 +3632,17 @@
       },
       "samples": {
         "tid": "recommend",
-        "vod_id": "425588699",
+        "vod_id": "641379769",
         "flag": "酷狗音乐",
-        "play_id": "425588699"
+        "play_id": "641379769"
       },
       "player": {
         "parse": 0,
-        "url": "http://fsdg360.hw.kugou.com/202607092151/4015cc9838572ddd016b78dcd67978a5/v3/2551f523a2f400cd499cad98dcc1c76d/yp/p_0_960141/ap1013_us0_mic85f71c379c462618de1399950957c33_pi6101_mx425588699_qu128_s3782312438.mp3?ft=car_203559_10049&fts=b05bb02d44717442054bac7624ed9a29&ext=.mp3",
+        "url": "http://fsdg360.hw.kugou.com/202607102102/5d50f1de81121dcef484629428a0d193/v3/fed8fcdd762ea9c7706e8e5d084e4a14/yp/full/ap1013_us0_mic85f71c379c462618de1399950957c33_pi6101_mx641379769_qumultitrack_s2600538033.mkv?ft=car_203559_10049&fts=b05bb02d44717442054bac7624ed9a29&ext=.mkv",
         "valid": true,
         "reachable": true,
         "status_code": 200,
-        "final_url": "http://fsdg360.hw.kugou.com/202607092151/4015cc9838572ddd016b78dcd67978a5/v3/2551f523a2f400cd499cad98dcc1c76d/yp/p_0_960141/ap1013_us0_mic85f71c379c462618de1399950957c33_pi6101_mx425588699_qu128_s3782312438.mp3?ft=car_203559_10049&fts=b05bb02d44717442054bac7624ed9a29&ext=.mp3",
+        "final_url": "http://fsdg360.hw.kugou.com/202607102102/5d50f1de81121dcef484629428a0d193/v3/fed8fcdd762ea9c7706e8e5d084e4a14/yp/full/ap1013_us0_mic85f71c379c462618de1399950957c33_pi6101_mx641379769_qumultitrack_s2600538033.mkv?ft=car_203559_10049&fts=b05bb02d44717442054bac7624ed9a29&ext=.mkv",
         "reason": null
       }
     },
@@ -3576,14 +3654,14 @@
       "error": null,
       "traceback": null,
       "timings_ms": {
-        "module_load": 4.015,
+        "module_load": 4.06,
         "init": 0.001,
-        "home": 4310.701,
-        "category": 1007.026,
-        "detail": 692.711,
-        "player": 299.932,
-        "url_check": 1052.67,
-        "total": 7367.729
+        "home": 1651.904,
+        "category": 1683.09,
+        "detail": 943.076,
+        "player": 349.418,
+        "url_check": 735.899,
+        "total": 5367.999
       },
       "counts": {
         "classes": 6,
@@ -3599,11 +3677,11 @@
       },
       "player": {
         "parse": 0,
-        "url": "https://ppvod011.blbtgg.com/splitOut/20260705/1342569/V20260705110331438911342569/index.m3u8?auth_key=1783605118-9e096b32bb154f37b2b8f31d181f6814-0-12da8bab432c598517f20962ef004401",
+        "url": "https://ppvod01.kqgfbs.com/splitOut/20260705/1342569/V20260705110331438911342569/index.m3u8?t=6a5117b2&whip=171.212.167.173&sign=80ccb19d25fe48303e6bfeaaf2951e4ea0846215",
         "valid": true,
         "reachable": true,
         "status_code": 200,
-        "final_url": "https://ppvod011.blbtgg.com/splitOut/20260705/1342569/V20260705110331438911342569/index.m3u8?auth_key=1783605118-9e096b32bb154f37b2b8f31d181f6814-0-12da8bab432c598517f20962ef004401",
+        "final_url": "https://ppvod01.kqgfbs.com/splitOut/20260705/1342569/V20260705110331438911342569/index.m3u8?t=6a5117b2&whip=171.212.167.173&sign=80ccb19d25fe48303e6bfeaaf2951e4ea0846215",
         "reason": null
       }
     },
@@ -3615,14 +3693,14 @@
       "error": null,
       "traceback": null,
       "timings_ms": {
-        "module_load": 6.236,
-        "init": 0.011,
-        "home": 147.867,
-        "category": 97.423,
-        "detail": 87.325,
-        "player": 81.297,
-        "url_check": 257.937,
-        "total": 678.716
+        "module_load": 5.612,
+        "init": 0.01,
+        "home": 158.534,
+        "category": 111.344,
+        "detail": 90.395,
+        "player": 0.014,
+        "url_check": 1311.399,
+        "total": 1677.82
       },
       "counts": {
         "classes": 18,
@@ -3632,17 +3710,17 @@
       },
       "samples": {
         "tid": "20",
-        "vod_id": "694",
-        "flag": "WJ超清",
-        "play_id": "app88:WyJJTURCLVlBX1c3TDNXbGM2YmRYQ3FRcGZ1Nnh0NDJPWGttRExhcVVqdWpRR1ZiemJ0a1BTY0pueUNZTWdNeWFUYUE0eUM4UkE3WHNfX2xvVGJYMXNNZzhyZkxnIiwiSU1EQiIsIuWbouaImOS5i-WknCIsIjQiXQ"
+        "vod_id": "70909",
+        "flag": "FF有广",
+        "play_id": "app88:WyJodHRwczovL3ZpcC5mZnp5LXBsYXk3LmNvbS8yMDIzMDQwNS8yMDk4Ml84ZWYzODNkOS9pbmRleC5tM3U4IiwiZmZtM3U4IiwiS0FOTyIsIjEiXQ"
       },
       "player": {
         "parse": 0,
-        "url": "https://ali-cdn-play.ranaesport.cn/1063f8a71d1871f1bff96732b68e0402/2a41b5f964dd4d56b7d4ff719f5e5e4e-fdfa03a4ea9eeb7fd6b60ba6f3857b61-sd.mp4?auth_key=1783616772-2eaf9cbac9a72068f223faddba226a0e-0-86020a8222389b59e0d4a5bfd04d7d48",
+        "url": "https://vip.ffzy-play7.com/20230405/20982_8ef383d9/index.m3u8",
         "valid": true,
         "reachable": true,
         "status_code": 200,
-        "final_url": "https://ali-cdn-play.ranaesport.cn/1063f8a71d1871f1bff96732b68e0402/2a41b5f964dd4d56b7d4ff719f5e5e4e-fdfa03a4ea9eeb7fd6b60ba6f3857b61-sd.mp4?auth_key=1783616772-2eaf9cbac9a72068f223faddba226a0e-0-86020a8222389b59e0d4a5bfd04d7d48",
+        "final_url": "https://vip.ffzy-play7.com/20230405/20982_8ef383d9/index.m3u8",
         "reason": null
       }
     },
@@ -3654,14 +3732,14 @@
       "error": null,
       "traceback": null,
       "timings_ms": {
-        "module_load": 8.51,
+        "module_load": 6.493,
         "init": 0.001,
-        "home": 0.001,
-        "category": 277.696,
-        "detail": 220.948,
-        "player": 0.007,
-        "url_check": 164.666,
-        "total": 672.474
+        "home": 0.0,
+        "category": 354.267,
+        "detail": 242.208,
+        "player": 0.008,
+        "url_check": 145.574,
+        "total": 749.119
       },
       "counts": {
         "classes": 5,
@@ -3693,14 +3771,14 @@
       "error": null,
       "traceback": null,
       "timings_ms": {
-        "module_load": 7.748,
+        "module_load": 4.711,
         "init": 0.003,
         "home": 0.003,
-        "category": 2144.648,
-        "detail": 810.98,
-        "player": 0.004,
-        "url_check": 167.581,
-        "total": 3131.553
+        "category": 2063.44,
+        "detail": 822.102,
+        "player": 0.003,
+        "url_check": 157.147,
+        "total": 3047.964
       },
       "counts": {
         "classes": 7,
@@ -3732,14 +3810,14 @@
       "error": null,
       "traceback": null,
       "timings_ms": {
-        "module_load": 7.173,
+        "module_load": 5.857,
         "init": 0.002,
-        "home": 1071.455,
-        "category": 1031.119,
-        "detail": 3673.678,
-        "player": 663.192,
-        "url_check": 269.346,
-        "total": 6716.444
+        "home": 1168.882,
+        "category": 1939.52,
+        "detail": 4968.363,
+        "player": 938.756,
+        "url_check": 674.319,
+        "total": 9696.315
       },
       "counts": {
         "classes": 18,
@@ -3755,11 +3833,11 @@
       },
       "player": {
         "parse": 0,
-        "url": "http://piccc.cdn.51touxiang.com/m3u8/2ePd4TGLqoackYBGnFxo66tx694g29pLJY5pkDQc.m3u8?pid=%2BibJyq87ptZYRmRqhIP%2FvdPpS8IkFbC44G%2FR8jMO89c%3D&utk=u_bYstpjDewEfNg7Qfvwx1&uk=f0vRs0mWZ8Q4NeOaqnzptBzBCFA8hAHZaPEf9u6Y3cw%3D&spl=213&t=1783605119&sign=d6916023f98d26117b8972182f9f2251&ip=171.212.167.173",
+        "url": "http://piccc.cdn.51touxiang.com/m3u8/2ePd4TGLqoackYBGnFxo66tx694g29pLJY5pkDQc.m3u8?pid=%2BibJyq87ptZYRmRqhIP%2FvdPpS8IkFbC44G%2FR8jMO89c%3D&utk=u_bYstpjDewEfNg7Qfvwx1&uk=f0vRs0mWZ8Q4NeOaqnzptBzBCFA8hAHZaPEf9u6Y3cw%3D&spl=213&t=1783688583&sign=7843f42965fc7940fbf5c34c7a65fddb&ip=171.212.167.173",
         "valid": true,
         "reachable": true,
         "status_code": 200,
-        "final_url": "http://piccc.cdn.51touxiang.com/m3u8/2ePd4TGLqoackYBGnFxo66tx694g29pLJY5pkDQc.m3u8?pid=%2BibJyq87ptZYRmRqhIP%2FvdPpS8IkFbC44G%2FR8jMO89c%3D&utk=u_bYstpjDewEfNg7Qfvwx1&uk=f0vRs0mWZ8Q4NeOaqnzptBzBCFA8hAHZaPEf9u6Y3cw%3D&spl=213&t=1783605119&sign=d6916023f98d26117b8972182f9f2251&ip=171.212.167.173",
+        "final_url": "http://piccc.cdn.51touxiang.com/m3u8/2ePd4TGLqoackYBGnFxo66tx694g29pLJY5pkDQc.m3u8?pid=%2BibJyq87ptZYRmRqhIP%2FvdPpS8IkFbC44G%2FR8jMO89c%3D&utk=u_bYstpjDewEfNg7Qfvwx1&uk=f0vRs0mWZ8Q4NeOaqnzptBzBCFA8hAHZaPEf9u6Y3cw%3D&spl=213&t=1783688583&sign=7843f42965fc7940fbf5c34c7a65fddb&ip=171.212.167.173",
         "reason": null
       }
     },
@@ -3771,14 +3849,14 @@
       "error": null,
       "traceback": null,
       "timings_ms": {
-        "module_load": 5.157,
-        "init": 0.001,
-        "home": 0.001,
-        "category": 1052.464,
-        "detail": 1501.53,
-        "player": 0.003,
-        "url_check": 990.642,
-        "total": 3550.33
+        "module_load": 4.558,
+        "init": 0.003,
+        "home": 0.0,
+        "category": 970.748,
+        "detail": 731.141,
+        "player": 0.002,
+        "url_check": 854.135,
+        "total": 2561.775
       },
       "counts": {
         "classes": 5,
@@ -3810,14 +3888,14 @@
       "error": null,
       "traceback": null,
       "timings_ms": {
-        "module_load": 3.564,
+        "module_load": 3.618,
         "init": 0.001,
         "home": 0.001,
-        "category": 298.009,
-        "detail": 341.17,
+        "category": 685.708,
+        "detail": 370.162,
         "player": 0.002,
-        "url_check": 108.017,
-        "total": 751.745
+        "url_check": 96.952,
+        "total": 1156.835
       },
       "counts": {
         "classes": 12,
@@ -3849,34 +3927,34 @@
       "error": null,
       "traceback": null,
       "timings_ms": {
-        "module_load": 5.542,
+        "module_load": 4.835,
         "init": 0.001,
-        "home": 0.001,
-        "category": 1009.291,
-        "detail": 967.134,
-        "player": 3030.225,
-        "url_check": 707.523,
-        "total": 5720.401
+        "home": 0.0,
+        "category": 1153.692,
+        "detail": 1066.859,
+        "player": 942.203,
+        "url_check": 817.657,
+        "total": 3985.796
       },
       "counts": {
         "classes": 4,
         "category_videos": 40,
         "detail_videos": 1,
-        "episodes": 1
+        "episodes": 2
       },
       "samples": {
         "tid": "1",
-        "vod_id": "197128",
+        "vod_id": "247909",
         "flag": "茅台资源1",
-        "play_id": "/vodplay/197128-1-1.html"
+        "play_id": "/vodplay/247909-4-1.html"
       },
       "player": {
         "parse": 0,
-        "url": "https://vodcnd12.trjho.com/20260707/VA8x8WIJ/index.m3u8",
+        "url": "https://vodcnd03.trjho.com/20260709/HDg85bq9/index.m3u8",
         "valid": true,
         "reachable": true,
         "status_code": 200,
-        "final_url": "https://vodcnd12.trjho.com/20260707/VA8x8WIJ/index.m3u8",
+        "final_url": "https://vodcnd03.trjho.com/20260709/HDg85bq9/index.m3u8",
         "reason": null
       }
     },
@@ -3888,14 +3966,14 @@
       "error": "分类列表为空",
       "traceback": null,
       "timings_ms": {
-        "module_load": 5.367,
-        "init": 0.002,
-        "home": 388.755,
+        "module_load": 5.919,
+        "init": 0.001,
+        "home": 309.669,
         "category": 0.0,
         "detail": 0.0,
         "player": 0.0,
         "url_check": 0.0,
-        "total": 394.332
+        "total": 315.765
       },
       "counts": {
         "classes": 0,
@@ -3927,14 +4005,14 @@
       "error": null,
       "traceback": null,
       "timings_ms": {
-        "module_load": 3.85,
+        "module_load": 3.971,
         "init": 0.001,
         "home": 0.0,
-        "category": 173.198,
-        "detail": 220.606,
-        "player": 0.02,
-        "url_check": 374.167,
-        "total": 772.565
+        "category": 655.984,
+        "detail": 179.754,
+        "player": 0.057,
+        "url_check": 415.349,
+        "total": 11445.46
       },
       "counts": {
         "classes": 6,
@@ -3943,18 +4021,18 @@
         "episodes": 2
       },
       "samples": {
-        "tid": "1",
-        "vod_id": "171427",
+        "tid": "2",
+        "vod_id": "155698",
         "flag": "LZ源",
-        "play_id": "eyJ1cmwiOiJodHRwczovL3YubHpjZG4yNy5jb20vMjAyNTA3MzEvNjc5XzUwYTJiMDQ3L2luZGV4Lm0zdTgiLCJwYXJzZV9hcGkiOiJodHRwczovL2RlbC5tdDMyMC5jb20vbHpmZi5waHA_dXJsPSIsImhlYWRlcnMiOnt9LCJ1c2VyX2FnZW50IjoiIn0="
+        "play_id": "eyJ1cmwiOiJodHRwczovL3YubHpjZG4yOC5jb20vMjAyNTA5MjMvMjMyNl9hOWJmMjM0YS9pbmRleC5tM3U4IiwicGFyc2VfYXBpIjoiaHR0cHM6Ly9kZWwubXQzMjAuY29tL2x6ZmYucGhwP3VybD0iLCJoZWFkZXJzIjp7fSwidXNlcl9hZ2VudCI6IiJ9"
       },
       "player": {
         "parse": 0,
-        "url": "https://v.lzcdn27.com/20250731/679_50a2b047/index.m3u8",
+        "url": "https://v.lzcdn28.com/20250923/2326_a9bf234a/index.m3u8",
         "valid": true,
         "reachable": true,
         "status_code": 200,
-        "final_url": "https://v.lzcdn27.com/20250731/679_50a2b047/index.m3u8",
+        "final_url": "https://v.lzcdn28.com/20250923/2326_a9bf234a/index.m3u8",
         "reason": null
       }
     },
@@ -3966,14 +4044,14 @@
       "error": "分类列表为空",
       "traceback": null,
       "timings_ms": {
-        "module_load": 5.676,
+        "module_load": 4.754,
         "init": 0.001,
-        "home": 212.016,
+        "home": 231.78,
         "category": 0.0,
         "detail": 0.0,
         "player": 0.0,
         "url_check": 0.0,
-        "total": 217.905
+        "total": 236.662
       },
       "counts": {
         "classes": 0,
